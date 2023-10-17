@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".StatisticActivity">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_gravity="center|fill_vertical"
+        android:id="@+id/name_normative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:textColor="@color/black"/>
+
+
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="40dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="12dp"
+                android:text="ИСПЫТАНИЯ"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="10dp"
+                android:text="НОРМАТИВЫ"
+
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="12dp"
+                android:text="1. Бег на 60м,(с)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/static_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="10dp"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="12dp"
+                android:text="2. Бег на 1км,(мин, с)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/static_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="10dp"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="12dp"
+                android:text="3. Подтягивание из Виса на высокой перекладине (кол-во раз)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/static_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="30dp"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginVertical="5dp"
+                android:text="3. ИЛИ подтягивания из виса лёжа на низкой перекладине (кол-во раз)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/static_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="15dp"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginVertical="5dp"
+                android:text="3. ИЛИ отжимания (кол-во раз)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/static_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="20dp"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginVertical="5dp"
+                android:text="4.Наклон вперёд, из положения стоя, с прямыми ногами на полу"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/static_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="10dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_margin="40dp"
+            android:text="НАЗАД" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</FrameLayout>
+
+</ScrollView>
