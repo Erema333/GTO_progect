@@ -46,7 +46,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="30dp"
+                android:layout_marginHorizontal="70dp"
                 android:layout_marginVertical="10dp"
                 android:text="НОРМАТИВЫ"
 
@@ -61,17 +61,17 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="160dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="12dp"
-                android:text="1. Бег на 60м,(с)"
+                android:id="@+id/normative_1"
                 android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/static_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="30dp"
+                android:layout_marginHorizontal="70dp"
                 android:layout_marginVertical="10dp"
                 android:textColor="@color/black" />
         </LinearLayout>
@@ -83,18 +83,19 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="160dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="12dp"
-                android:text="2. Бег на 1км,(мин, с)"
+                android:id="@+id/normative_2"
                 android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/static_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="30dp"
-                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="70dp"
+                android:layout_gravity="center_vertical"
+
                 android:textColor="@color/black" />
         </LinearLayout>
 
@@ -105,10 +106,11 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="160dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="12dp"
-                android:text="3. Подтягивание из Виса на высокой перекладине (кол-во раз)"
+                android:id="@+id/normative_3"
+
                 android:textColor="@color/black" />
 
             <TextView
@@ -116,8 +118,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
-                android:layout_marginHorizontal="30dp"
-                android:layout_marginVertical="30dp"
+                android:layout_marginHorizontal="70dp"
+                android:layout_marginVertical="12dp"
                 android:textColor="@color/black" />
         </LinearLayout>
 
@@ -129,19 +131,19 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="160dp"
+                android:layout_width="200dp"
+                android:id="@+id/normative_4"
 
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 android:layout_marginVertical="5dp"
-                android:text="3. ИЛИ подтягивания из виса лёжа на низкой перекладине (кол-во раз)"
                 android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/static_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="30dp"
+                android:layout_marginHorizontal="70dp"
                 android:layout_marginVertical="15dp"
                 android:textColor="@color/black" />
         </LinearLayout>
@@ -153,20 +155,21 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="160dp"
+                android:layout_width="200dp"
 
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 android:layout_marginVertical="5dp"
-                android:text="3. ИЛИ отжимания (кол-во раз)"
+                android:id="@+id/normative_5"
+
                 android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/static_5"
+                android:gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="30dp"
-                android:layout_marginVertical="20dp"
+                android:layout_marginHorizontal="70dp"
                 android:textColor="@color/black" />
         </LinearLayout>
 
@@ -177,20 +180,210 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="160dp"
+                android:layout_width="200dp"
 
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 android:layout_marginVertical="5dp"
-                android:text="4.Наклон вперёд, из положения стоя, с прямыми ногами на полу"
+
+                android:id="@+id/normative_6"
                 android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/static_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="30dp"
+                android:layout_marginHorizontal="70dp"
+                android:layout_marginVertical="15dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginVertical="5dp"
+
+                android:id="@+id/normative_7"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/static_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="70dp"
                 android:layout_marginVertical="10dp"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginVertical="5dp"
+
+                android:id="@+id/normative_8"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/static_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="70dp"
+                android:layout_marginVertical="5dp"
+                android:textColor="@color/black" />
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginVertical="5dp"
+
+                android:id="@+id/normative_9"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/static_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="70dp"
+                android:layout_marginVertical="15dp"
+                android:textColor="@color/black" />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginVertical="5dp"
+
+                android:id="@+id/normative_10"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/static_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="70dp"
+                android:layout_marginVertical="5dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginVertical="5dp"
+
+                android:id="@+id/normative_11"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/static_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="70dp"
+                android:layout_marginVertical="5dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginVertical="5dp"
+
+                android:id="@+id/normative_12"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/static_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="70dp"
+                android:layout_marginVertical="5dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginVertical="5dp"
+
+                android:id="@+id/normative_13"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/static_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="70dp"
+                android:layout_marginVertical="5dp"
                 android:textColor="@color/black" />
 
         </LinearLayout>

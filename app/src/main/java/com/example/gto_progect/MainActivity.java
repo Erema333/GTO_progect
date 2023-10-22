@@ -21,15 +21,17 @@ public class MainActivity extends AppCompatActivity {
         binding.gold.setOnClickListener(view1 -> {medal =1;});
         binding.serebro.setOnClickListener(view1 -> {medal =2;});
         binding.copper.setOnClickListener(view1 -> {medal =3;});
-        binding.old910.setOnClickListener(view1 -> {old =1;});
-        binding.old1112.setOnClickListener(view1 -> {old =2;});
-        binding.old1315.setOnClickListener(view1 -> {old =3;});
-        binding.old1617.setOnClickListener(view1 -> {old =4;});
+        binding.old67.setOnClickListener(view1 -> {old =6;});
+        binding.old89.setOnClickListener(view1 -> {old =8;});
+        binding.old1011.setOnClickListener(view1 -> {old =10;});
+        binding.old1213.setOnClickListener(view1 -> {old =12;});
+        binding.old1415.setOnClickListener(view1 -> {old =14;});
+        binding.old1617.setOnClickListener(view1 -> {old =16;});
         binding.man.setOnClickListener(view1 -> {pol =1;});
         binding.women.setOnClickListener(view1 -> {pol =2;});
 binding.gotovo.setOnClickListener(view -> {
 
-if(pol > 0|| old>0){
+if(pol > 0&& old>0&&medal>0){
 
     Intent perehod = new Intent();
     perehod.setClass(MainActivity.this,StatisticActivity.class);
@@ -44,33 +46,60 @@ if(pol > 0|| old>0){
     }
 public String getInfo(){
         String a = "null";
-        if(pol == 1 && old ==1 && medal == 1)a = "M,9-10,G";
-        if(pol == 1 && old ==2 && medal == 1)a = "M,11-12,G";
-        if(pol == 1 && old ==3 && medal == 1)a = "M,13-15,G";
-        if(pol == 1 && old ==4 && medal == 1)a = "M,16-17,G";
-        if(pol == 2 && old ==1 && medal == 1)a = "W,9-10,G";
-        if(pol == 2 && old ==2 && medal == 1)a = "W,11-12,G";
-        if(pol == 2 && old ==3 && medal == 1)a = "W,13-15,G";
-        if(pol == 2 && old ==4 && medal == 1)a = "W,16-17,G";
+//============================================================== мужики на золото
+    if(pol == 1 && old ==6 && medal == 1)a = "M,6-7,G";
+    if(pol == 1 && old ==8 && medal == 1)a = "M,8-9,G";
+    if(pol == 1 && old ==10 && medal == 1)a = "M,10-11,G";
+    if(pol == 1 && old ==12 && medal == 1)a = "M,12-13,G";
+    if(pol == 1 && old ==14 && medal == 1)a = "M,14-15,G";
+    if(pol == 1 && old ==16 && medal == 1)a = "M,16-17,G";
+//============================================================== мужики на серебро
+    if(pol == 1 && old ==6 && medal == 2)a = "M,6-7,S";
+    if(pol == 1 && old ==8 && medal == 2)a = "M,8-9,S";
+    if(pol == 1 && old ==10 && medal == 2)a = "M,10-11,S";
+    if(pol == 1 && old ==12 && medal == 2)a = "M,12-13,S";
+    if(pol == 1 && old ==14 && medal == 2)a = "M,14-15,S";
+    if(pol == 1 && old ==16 && medal == 2)a = "M,16-17,S";
+//============================================================== мужики на бронзу
+    if(pol == 1 && old ==6 && medal == 3)a = "M,6-7,С";
+    if(pol == 1 && old ==8 && medal == 3)a = "M,8-9,С";
+    if(pol == 1 && old ==10 && medal == 3)a = "M,10-11,С";
+    if(pol == 1 && old ==12 && medal == 3)a = "M,12-13,С";
+    if(pol == 1 && old ==14 && medal == 3)a = "M,14-15,С";
+    if(pol == 1 && old ==16 && medal == 3)a = "M,16-17,С";
 
-    if(pol == 1 && old ==1 && medal == 2)a = "M,9-10,S";
-    if(pol == 1 && old ==2 && medal == 2)a = "M,11-12,S";
-    if(pol == 1 && old ==3 && medal == 2)a = "M,13-15,S";
-    if(pol == 1 && old ==4 && medal == 2)a = "M,16-17,S";
-    if(pol == 2 && old ==1 && medal == 2)a = "W,9-10,S";
-    if(pol == 2 && old ==2 && medal == 2)a = "W,11-12,S";
-    if(pol == 2 && old ==3 && medal == 2)a = "W,13-15,S";
-    if(pol == 2 && old ==4 && medal == 2)a = "W,16-17,S";
 
-    if(pol == 1 && old ==1 && medal == 3)a = "M,9-10,C";
-    if(pol == 1 && old ==2 && medal == 3)a = "M,11-12,C";
-    if(pol == 1 && old ==3 && medal == 3)a = "M,13-15,C";
-    if(pol == 1 && old ==4 && medal == 3)a = "M,16-17,C";
-    if(pol == 2 && old ==1 && medal == 3)a = "W,9-10,C";
-    if(pol == 2 && old ==2 && medal == 3)a = "W,11-12,C";
-    if(pol == 2 && old ==3 && medal == 3)a = "W,13-15,C";
-    if(pol == 2 && old ==4 && medal == 3)a = "W,16-17,C";
+
+
+//============================================================== девочки на золото
+    if(pol == 2 && old ==6 && medal == 1)a = "W,6-7,G";
+    if(pol == 2 && old ==8 && medal == 1)a = "W,8-9,G";
+    if(pol == 2 && old ==10 && medal == 1)a = "W,10-11,G";
+    if(pol == 2 && old ==12 && medal == 1)a = "W,12-13,G";
+    if(pol == 2 && old ==14 && medal == 1)a = "W,14-15,G";
+    if(pol == 2 && old ==16 && medal == 1)a = "W,16-17,G";
+//============================================================== девочки на серебро
+    if(pol == 2 && old ==6 && medal == 2)a = "W,6-7,S";
+    if(pol == 2 && old ==8 && medal == 2)a = "W,8-9,S";
+    if(pol == 2 && old ==10 && medal == 2)a = "W,10-11,S";
+    if(pol == 2 && old ==12 && medal == 2)a = "W,12-13,S";
+    if(pol == 2 && old ==14 && medal == 2)a = "W,14-15,S";
+    if(pol == 2 && old ==16 && medal == 2)a = "W,16-17,S";
+//============================================================== девочки на бронзу
+    if(pol == 2 && old ==6 && medal == 3)a = "W,6-7,С";
+    if(pol == 2 && old ==8 && medal == 3)a = "W,8-9,С";
+    if(pol == 2 && old ==10 && medal == 3)a = "W,10-11,С";
+    if(pol == 2 && old ==12 && medal == 3)a = "W,12-13,С";
+    if(pol == 2 && old ==14 && medal == 3)a = "W,14-15,С";
+    if(pol == 2 && old ==16 && medal == 3)a = "W,16-17,С";
+
+
     return a;
 }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        System.out.println("jj");
+    }
 }
