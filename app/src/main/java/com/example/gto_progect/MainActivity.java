@@ -63,10 +63,10 @@ public String getInfo(){
 //============================================================== мужики на бронзу
     if(pol == 1 && old ==6 && medal == 3)a = "M,6-7,С";
     if(pol == 1 && old ==8 && medal == 3)a = "M,8-9,С";
-    if(pol == 1 && old ==10 && medal == 3)a = "M,10-11,С";
-    if(pol == 1 && old ==12 && medal == 3)a = "M,12-13,С";
-    if(pol == 1 && old ==14 && medal == 3)a = "M,14-15,С";
-    if(pol == 1 && old ==16 && medal == 3)a = "M,16-17,С";
+    if(pol == 1 && old ==10 && medal == 3)a = "M,10-11,C";
+    if(pol == 1 && old ==12 && medal == 3)a = "M,12-13,C";
+    if(pol == 1 && old ==14 && medal == 3)a = "M,14-15,C";
+    if(pol == 1 && old ==16 && medal == 3)a = "M,16-17,C";
 
 
 
