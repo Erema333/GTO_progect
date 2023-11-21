@@ -87,7 +87,7 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static13.setVisibility(View.GONE);
                 break;
 
-            case "M,6-7,С":
+            case "M,6-7,C":
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
@@ -1443,6 +1443,631 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
                 break;
+
+
+            case "W,16-17,G":
+                binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
+
+                //======================================================================== Название нормативов
+                binding.normative1.setText("1.1 Бег 60м (с)");
+                binding.normative2.setText("1.2 Бег на 100 м (с)");
+
+                binding.normative3.setText("2.1 Бег на 2000 м\n" +
+                        "(мин, с)");
+                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                        "3 км (мин, с)");
+
+                binding.normative5.setText("2.3 Кросс на 3 км (бег по\n" +
+                        "пересеченной местности)\n" +
+                        "(мин, с)");
+
+                binding.normative6.setText("Подтягивание из виса\n" +
+                        "лежа на низкой\n" +
+                        "перекладине 90 см\n" +
+                        "(количество раз)");
+
+
+                binding.normative7.setText("3.3 Сгибание и разгибание\n" +
+                        "рук в упоре лежа на полу\n" +
+                        "(количество раз)");
+                binding.normative8.setText("4 Наклон вперед из\n" +
+                        "положения стоя на\n" +
+                        "гимнастической скамье\n" +
+                        "(от уровня скамьи – см)");
+
+                binding.normative9.setVisibility(View.GONE);
+                binding.normative10.setVisibility(View.GONE);
+                binding.normative11.setVisibility(View.GONE);
+                binding.normative12.setVisibility(View.GONE);
+                binding.normative13.setVisibility(View.GONE);
+
+
+
+                binding.static1.setText("9.2");
+                binding.static2.setText("15.8");
+                binding.static3.setText("9:45");
+                binding.static4.setText("16:40");
+                binding.static5.setText("16:05");
+                binding.static6.setText("20");
+                binding.static7.setText("17");
+                binding.static8.setText("+16");
+
+
+                binding.static9.setVisibility(View.GONE);
+                binding.static10.setVisibility(View.GONE);
+                binding.static11.setVisibility(View.GONE);
+                binding.static12.setVisibility(View.GONE);
+                binding.static13.setVisibility(View.GONE);
+                break;
+
+            case "W,16-17,S":
+                binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
+
+                //======================================================================== Название нормативов
+                binding.normative1.setText("1.1 Бег 60м (с)");
+                binding.normative2.setText("1.2 Бег на 100 м (с)");
+
+                binding.normative3.setText("2.1 Бег на 2000 м\n" +
+                        "(мин, с)");
+                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                        "3 км (мин, с)");
+
+                binding.normative5.setText("2.3 Кросс на 3 км (бег по\n" +
+                        "пересеченной местности)\n" +
+                        "(мин, с)");
+
+                binding.normative6.setText("Подтягивание из виса\n" +
+                        "лежа на низкой\n" +
+                        "перекладине 90 см\n" +
+                        "(количество раз)");
+
+
+                binding.normative7.setText("3.3 Сгибание и разгибание\n" +
+                        "рук в упоре лежа на полу\n" +
+                        "(количество раз)");
+                binding.normative8.setText("4 Наклон вперед из\n" +
+                        "положения стоя на\n" +
+                        "гимнастической скамье\n" +
+                        "(от уровня скамьи – см)");
+
+                binding.normative9.setVisibility(View.GONE);
+                binding.normative10.setVisibility(View.GONE);
+                binding.normative11.setVisibility(View.GONE);
+                binding.normative12.setVisibility(View.GONE);
+                binding.normative13.setVisibility(View.GONE);
+
+
+
+                binding.static1.setText("9.9");
+                binding.static2.setText("16.9");
+                binding.static3.setText("11:10");
+                binding.static4.setText("18:35");
+                binding.static5.setText("17:35");
+                binding.static6.setText("14");
+                binding.static7.setText("12");
+                binding.static8.setText("+9");
+
+
+                binding.static9.setVisibility(View.GONE);
+                binding.static10.setVisibility(View.GONE);
+                binding.static11.setVisibility(View.GONE);
+                binding.static12.setVisibility(View.GONE);
+                binding.static13.setVisibility(View.GONE);
+                break;
+
+
+            case "W,16-17,C":
+                binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
+
+                //======================================================================== Название нормативов
+                binding.normative1.setText("1.1 Бег 60м (с)");
+                binding.normative2.setText("1.2 Бег на 100 м (с)");
+
+                binding.normative3.setText("2.1 Бег на 2000 м\n" +
+                        "(мин, с)");
+                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                        "3 км (мин, с)");
+
+                binding.normative5.setText("2.3 Кросс на 3 км (бег по\n" +
+                        "пересеченной местности)\n" +
+                        "(мин, с)");
+
+                binding.normative6.setText("Подтягивание из виса\n" +
+                        "лежа на низкой\n" +
+                        "перекладине 90 см\n" +
+                        "(количество раз)");
+
+
+                binding.normative7.setText("3.3 Сгибание и разгибание\n" +
+                        "рук в упоре лежа на полу\n" +
+                        "(количество раз)");
+                binding.normative8.setText("4 Наклон вперед из\n" +
+                        "положения стоя на\n" +
+                        "гимнастической скамье\n" +
+                        "(от уровня скамьи – см)");
+
+                binding.normative9.setVisibility(View.GONE);
+                binding.normative10.setVisibility(View.GONE);
+                binding.normative11.setVisibility(View.GONE);
+                binding.normative12.setVisibility(View.GONE);
+                binding.normative13.setVisibility(View.GONE);
+
+
+
+                binding.static1.setText("10.7");
+                binding.static2.setText("17.9");
+                binding.static3.setText("12:25");
+                binding.static4.setText("20:30");
+                binding.static5.setText("19:25");
+                binding.static6.setText("10");
+                binding.static7.setText("8");
+                binding.static8.setText("+7");
+
+
+                binding.static9.setVisibility(View.GONE);
+                binding.static10.setVisibility(View.GONE);
+                binding.static11.setVisibility(View.GONE);
+                binding.static12.setVisibility(View.GONE);
+                binding.static13.setVisibility(View.GONE);
+                break;
+
+            case "M,18-19,G":
+                binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
+
+                //======================================================================== Название нормативов
+                binding.normative1.setText("1.1 Бег 60м (с)");
+                binding.normative2.setText("1.2 Бег на 100 м (с)");
+
+                binding.normative3.setText("2.1 Бег на 3000 м\n" +
+                        "(мин, с)");
+                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                        "5 км (мин, с)");
+
+                binding.normative5.setText("2.3 Кросс на 5 км (бег по\n" +
+                        "пересеченной местности)\n" +
+                        "(мин, с)");
+
+                binding.normative6.setText("Подтягивание из виса на\n" +
+                        "высокой перекладине\n" +
+                        "(количество раз)");
+
+                binding.normative7.setText("Рывок гири 16 кг\n" +
+                        "(количество раз)");
+
+
+
+                binding.normative8.setText("3.3 Сгибание и разгибание\n" +
+                        "рук в упоре лежа на полу\n" +
+                        "(количество раз)");
+                binding.normative9.setText("4 Наклон вперед из\n" +
+                        "положения стоя на\n" +
+                        "гимнастической скамье\n" +
+                        "(от уровня скамьи – см)");
+
+
+                binding.normative10.setVisibility(View.GONE);
+                binding.normative11.setVisibility(View.GONE);
+                binding.normative12.setVisibility(View.GONE);
+                binding.normative13.setVisibility(View.GONE);
+
+
+                binding.static1.setText("7,9");
+                binding.static2.setText("13,2");
+                binding.static3.setText("12:20");
+                binding.static4.setText("23:30");
+                binding.static5.setText("23:00");
+                binding.static6.setText("15");
+                binding.static7.setText("35");
+                binding.static8.setText("43");
+                binding.static9.setText("+13");
+
+
+
+                binding.static10.setVisibility(View.GONE);
+                binding.static11.setVisibility(View.GONE);
+                binding.static12.setVisibility(View.GONE);
+                binding.static13.setVisibility(View.GONE);
+                break;
+
+            case "M,18-19,S":
+                binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
+
+                //======================================================================== Название нормативов
+                binding.normative1.setText("1.1 Бег 60м (с)");
+                binding.normative2.setText("1.2 Бег на 100 м (с)");
+
+                binding.normative3.setText("2.1 Бег на 3000 м\n" +
+                        "(мин, с)");
+                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                        "5 км (мин, с)");
+
+                binding.normative5.setText("2.3 Кросс на 5 км (бег по\n" +
+                        "пересеченной местности)\n" +
+                        "(мин, с)");
+
+                binding.normative6.setText("3.1 Подтягивание из виса на\n" +
+                        "высокой перекладине\n" +
+                        "(количество раз)");
+
+                binding.normative7.setText("3.2 Рывок гири 16 кг\n" +
+                        "(количество раз)");
+
+
+
+                binding.normative8.setText("3.3 Сгибание и разгибание\n" +
+                        "рук в упоре лежа на полу\n" +
+                        "(количество раз)");
+                binding.normative9.setText("4 Наклон вперед из\n" +
+                        "положения стоя на\n" +
+                        "гимнастической скамье\n" +
+                        "(от уровня скамьи – см)");
+
+
+                binding.normative10.setVisibility(View.GONE);
+                binding.normative11.setVisibility(View.GONE);
+                binding.normative12.setVisibility(View.GONE);
+                binding.normative13.setVisibility(View.GONE);
+
+
+                binding.static1.setText("8,4");
+                binding.static2.setText("14,1");
+                binding.static3.setText("14:10");
+                binding.static4.setText("25:40");
+                binding.static5.setText("25:00");
+                binding.static6.setText("12");
+                binding.static7.setText("19");
+                binding.static8.setText("32");
+                binding.static9.setText("+8");
+
+
+
+                binding.static10.setVisibility(View.GONE);
+                binding.static11.setVisibility(View.GONE);
+                binding.static12.setVisibility(View.GONE);
+                binding.static13.setVisibility(View.GONE);
+                break;
+
+            case "M,18-19,C":
+                binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
+
+                //======================================================================== Название нормативов
+                binding.normative1.setText("1.1 Бег 60м (с)");
+                binding.normative2.setText("1.2 Бег на 100 м (с)");
+
+                binding.normative3.setText("2.1 Бег на 3000 м\n" +
+                        "(мин, с)");
+                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                        "5 км (мин, с)");
+
+                binding.normative5.setText("2.3 Кросс на 5 км (бег по\n" +
+                        "пересеченной местности)\n" +
+                        "(мин, с)");
+
+                binding.normative6.setText("3.1 Подтягивание из виса на\n" +
+                        "высокой перекладине\n" +
+                        "(количество раз)");
+
+                binding.normative7.setText("3.2 Рывок гири 16 кг\n" +
+                        "(количество раз)");
+
+
+
+                binding.normative8.setText("3.3 Сгибание и разгибание\n" +
+                        "рук в упоре лежа на полу\n" +
+                        "(количество раз)");
+                binding.normative9.setText("4 Наклон вперед из\n" +
+                        "положения стоя на\n" +
+                        "гимнастической скамье\n" +
+                        "(от уровня скамьи – см)");
+
+
+                binding.normative10.setVisibility(View.GONE);
+                binding.normative11.setVisibility(View.GONE);
+                binding.normative12.setVisibility(View.GONE);
+                binding.normative13.setVisibility(View.GONE);
+
+
+
+                binding.static1.setText("8,9");
+                binding.static2.setText("14,8");
+                binding.static3.setText("15:20");
+                binding.static4.setText("28:00");
+                binding.static5.setText("27:00");
+                binding.static6.setText("8");
+                binding.static7.setText("14");
+                binding.static8.setText("25");
+                binding.static9.setText("+6");
+
+
+
+                binding.static10.setVisibility(View.GONE);
+                binding.static11.setVisibility(View.GONE);
+                binding.static12.setVisibility(View.GONE);
+                binding.static13.setVisibility(View.GONE);
+                break;
+
+            case "W,18-19,G":
+                binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
+
+                //======================================================================== Название нормативов
+                binding.normative1.setText("1.1 Бег 60м (с)");
+                binding.normative2.setText("1.2 Бег на 100 м (с)");
+
+                binding.normative3.setText("2.1 Бег на 2000 м\n" +
+                        "(мин, с)");
+                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                        "3 км (мин, с)");
+
+                binding.normative5.setText("2.3 Кросс на 3 км (бег по\n" +
+                        "пересеченной местности)\n" +
+                        "(мин, с)");
+
+                binding.normative6.setText("3Подтягивание из виса\n" +
+                        "лежа на низкой\n" +
+                        "перекладине 90 см\n" +
+                        "(количество раз)");
+
+
+                binding.normative7.setText("3.3 Сгибание и разгибание\n" +
+                        "рук в упоре лежа на полу\n" +
+                        "(количество раз)");
+                binding.normative8.setText("4 Наклон вперед из\n" +
+                        "положения стоя на\n" +
+                        "гимнастической скамье\n" +
+                        "(от уровня скамьи – см)");
+
+                binding.normative9.setVisibility(View.GONE);
+                binding.normative10.setVisibility(View.GONE);
+                binding.normative11.setVisibility(View.GONE);
+                binding.normative12.setVisibility(View.GONE);
+                binding.normative13.setVisibility(View.GONE);
+
+
+
+                binding.static1.setText("9.2");
+                binding.static2.setText("15.8");
+                binding.static3.setText("9:40");
+                binding.static4.setText("16:40");
+                binding.static5.setText("16:10");
+                binding.static6.setText("20");
+                binding.static7.setText("17");
+                binding.static8.setText("+16");
+
+
+                binding.static9.setVisibility(View.GONE);
+                binding.static10.setVisibility(View.GONE);
+                binding.static11.setVisibility(View.GONE);
+                binding.static12.setVisibility(View.GONE);
+                binding.static13.setVisibility(View.GONE);
+                break;
+
+            case "W,18-19,S":
+                binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
+
+                //======================================================================== Название нормативов
+                binding.normative1.setText("1.1 Бег 60м (с)");
+                binding.normative2.setText("1.2 Бег на 100 м (с)");
+
+                binding.normative3.setText("2.1 Бег на 2000 м\n" +
+                        "(мин, с)");
+                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                        "3 км (мин, с)");
+
+                binding.normative5.setText("2.3 Кросс на 3 км (бег по\n" +
+                        "пересеченной местности)\n" +
+                        "(мин, с)");
+
+                binding.normative6.setText("Подтягивание из виса\n" +
+                        "лежа на низкой\n" +
+                        "перекладине 90 см\n" +
+                        "(количество раз)");
+
+
+                binding.normative7.setText("3.3 Сгибание и разгибание\n" +
+                        "рук в упоре лежа на полу\n" +
+                        "(количество раз)");
+                binding.normative8.setText("4 Наклон вперед из\n" +
+                        "положения стоя на\n" +
+                        "гимнастической скамье\n" +
+                        "(от уровня скамьи – см)");
+
+                binding.normative9.setVisibility(View.GONE);
+                binding.normative10.setVisibility(View.GONE);
+                binding.normative11.setVisibility(View.GONE);
+                binding.normative12.setVisibility(View.GONE);
+                binding.normative13.setVisibility(View.GONE);
+
+
+
+                binding.static1.setText("9.9");
+                binding.static2.setText("16.9");
+                binding.static3.setText("11:05");
+                binding.static4.setText("18:40");
+                binding.static5.setText("17:40");
+                binding.static6.setText("14");
+                binding.static7.setText("12");
+                binding.static8.setText("+9");
+
+
+                binding.static9.setVisibility(View.GONE);
+                binding.static10.setVisibility(View.GONE);
+                binding.static11.setVisibility(View.GONE);
+                binding.static12.setVisibility(View.GONE);
+                binding.static13.setVisibility(View.GONE);
+                break;
+
+            case "W,18-19,C":
+                binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
+
+                //======================================================================== Название нормативов
+                binding.normative1.setText("1.1 Бег 60м (с)");
+                binding.normative2.setText("1.2 Бег на 100 м (с)");
+
+                binding.normative3.setText("2.1 Бег на 2000 м\n" +
+                        "(мин, с)");
+                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                        "3 км (мин, с)");
+
+                binding.normative5.setText("2.3 Кросс на 3 км (бег по\n" +
+                        "пересеченной местности)\n" +
+                        "(мин, с)");
+
+                binding.normative6.setText("Подтягивание из виса\n" +
+                        "лежа на низкой\n" +
+                        "перекладине 90 см\n" +
+                        "(количество раз)");
+
+
+                binding.normative7.setText("3.3 Сгибание и разгибание\n" +
+                        "рук в упоре лежа на полу\n" +
+                        "(количество раз)");
+                binding.normative8.setText("4 Наклон вперед из\n" +
+                        "положения стоя на\n" +
+                        "гимнастической скамье\n" +
+                        "(от уровня скамьи – см)");
+
+                binding.normative9.setVisibility(View.GONE);
+                binding.normative10.setVisibility(View.GONE);
+                binding.normative11.setVisibility(View.GONE);
+                binding.normative12.setVisibility(View.GONE);
+                binding.normative13.setVisibility(View.GONE);
+
+
+
+                binding.static1.setText("10.7");
+                binding.static2.setText("17.9");
+                binding.static3.setText("12:20");
+                binding.static4.setText("20:30");
+                binding.static5.setText("19:20");
+                binding.static6.setText("10");
+                binding.static7.setText("8");
+                binding.static8.setText("+7");
+
+
+                binding.static9.setVisibility(View.GONE);
+                binding.static10.setVisibility(View.GONE);
+                binding.static11.setVisibility(View.GONE);
+                binding.static12.setVisibility(View.GONE);
+                binding.static13.setVisibility(View.GONE);
+                break;
+
+            case "M,20-24,G":
+                binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
+
+                //======================================================================== Название нормативов
+                binding.normative1.setText("1.1 Бег 60м (с)");
+                binding.normative2.setText("1.2 Бег на 100 м (с)");
+
+                binding.normative3.setText("2.1 Бег на 3000 м\n" +
+                        "(мин, с)");
+                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                        "5 км (мин, с)");
+
+                binding.normative5.setText("2.3 Кросс на 5 км (бег по\n" +
+                        "пересеченной местности)\n" +
+                        "(мин, с)");
+
+                binding.normative6.setText("Подтягивание из виса на\n" +
+                        "высокой перекладине\n" +
+                        "(количество раз)");
+
+
+                binding.normative7.setText("3.3 Сгибание и разгибание\n" +
+                        "рук в упоре лежа на полу\n" +
+                        "(количество раз)");
+
+
+                binding.normative8.setText("Рывок гири 16 кг\n" +
+                        "(количество раз)");
+
+
+                binding.normative9.setText("4 Наклон вперед из\n" +
+                        "положения стоя на\n" +
+                        "гимнастической скамье\n" +
+                        "(от уровня скамьи – см)");
+
+                binding.normative10.setVisibility(View.GONE);
+                binding.normative11.setVisibility(View.GONE);
+                binding.normative12.setVisibility(View.GONE);
+                binding.normative13.setVisibility(View.GONE);
+
+
+
+                binding.static1.setText("8,4");
+                binding.static2.setText("14,1");
+                binding.static3.setText("14:10");
+                binding.static4.setText("25:40");
+                binding.static5.setText("25:00");
+                binding.static6.setText("12");
+                binding.static7.setText("19");
+                binding.static8.setText("32");
+                binding.static9.setText("+8");
+
+
+
+                binding.static10.setVisibility(View.GONE);
+                binding.static11.setVisibility(View.GONE);
+                binding.static12.setVisibility(View.GONE);
+                binding.static13.setVisibility(View.GONE);
+                break;
+
+            case "M,20-24,S":
+                binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
+
+                //======================================================================== Название нормативов
+                binding.normative1.setText("1.1 Бег 60м (с)");
+                binding.normative2.setText("1.2 Бег на 100 м (с)");
+
+                binding.normative3.setText("2.1 Бег на 3000 м\n" +
+                        "(мин, с)");
+                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                        "5 км (мин, с)");
+
+                binding.normative5.setText("2.3 Кросс на 5 км (бег по\n" +
+                        "пересеченной местности)\n" +
+                        "(мин, с)");
+
+                binding.normative6.setText("Подтягивание из виса на\n" +
+                        "высокой перекладине\n" +
+                        "(количество раз)");
+
+
+                binding.normative7.setText("3.3 Сгибание и разгибание\n" +
+                        "рук в упоре лежа на полу\n" +
+                        "(количество раз)");
+                binding.normative8.setText("4 Наклон вперед из\n" +
+                        "положения стоя на\n" +
+                        "гимнастической скамье\n" +
+                        "(от уровня скамьи – см)");
+
+                binding.normative9.setVisibility(View.GONE);
+                binding.normative10.setVisibility(View.GONE);
+                binding.normative11.setVisibility(View.GONE);
+                binding.normative12.setVisibility(View.GONE);
+                binding.normative13.setVisibility(View.GONE);
+
+
+
+                binding.static1.setText("8,4");
+                binding.static2.setText("14,1");
+                binding.static3.setText("14:10");
+                binding.static4.setText("25:40");
+                binding.static5.setText("25:00");
+                binding.static6.setText("12");
+                binding.static7.setText("19");
+                binding.static8.setText("32");
+                binding.static9.setText("+8");
+
+
+
+                binding.static10.setVisibility(View.GONE);
+                binding.static11.setVisibility(View.GONE);
+                binding.static12.setVisibility(View.GONE);
+                binding.static13.setVisibility(View.GONE);
+                break;
+
+
+
 
         }
 
