@@ -10,6 +10,7 @@ import com.example.gto_progect.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;
+
     private int old = 0;
     private int pol = 0;
     private int medal = 0;
@@ -36,11 +37,11 @@ public class MainActivity extends AppCompatActivity {
 binding.gotovo.setOnClickListener(view -> {
 
 if(pol > 0&& old>0&&medal>0){
-
+    InfoBase.information = getInfo();
     Intent perehod = new Intent();
     perehod.setClass(MainActivity.this,StatisticActivity.class);
-    perehod.putExtra("key", getInfo());
     startActivity(perehod);
+
 
 }else{
     System.out.println("там ноль");

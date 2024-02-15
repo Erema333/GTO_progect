@@ -440,16 +440,34 @@
                 android:textColor="@color/black" />
 
         </LinearLayout>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/back"
-            android:textSize="17sp"
 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|start"
-            android:layout_margin="40dp"
-            android:text="НАЗАД" />
+
+    <Button
+        android:id="@+id/back"
+        android:textSize="17sp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:text="НАЗАД" />
+    <Button
+        android:id="@+id/dop_norm"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginHorizontal="0dp"
+        android:text="ДОП. ИСП."
+
+        android:textSize="17sp" />
+
+</FrameLayout>
+
 
 
     </LinearLayout>
