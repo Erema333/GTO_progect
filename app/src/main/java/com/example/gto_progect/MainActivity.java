@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         binding.old1819.setOnClickListener(view1 -> {old =18;});
         binding.old2024.setOnClickListener(view1 -> {old =20;});
         binding.old2529.setOnClickListener(view1 -> {old =25;});
-        binding.old3034.setOnClickListener(view1 -> {old =30;});
         binding.man.setOnClickListener(view1 -> {pol =1;});
         binding.women.setOnClickListener(view1 -> {pol =2;});
 binding.gotovo.setOnClickListener(view -> {
