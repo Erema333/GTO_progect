@@ -218,7 +218,15 @@
                 android:layout_marginHorizontal="70dp"
                 android:textColor="@color/root_color" />
         </LinearLayout>
+        <TextView
+            android:textSize="17sp"
+            android:text="Сила"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/root_color">
 
+        </TextView>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -306,7 +314,15 @@
 
         </LinearLayout>
 
+        <TextView
+            android:textSize="17sp"
+            android:text="Гибкость"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/root_color">
 
+        </TextView>
 
         <LinearLayout
             android:layout_width="wrap_content"
