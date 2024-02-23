@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/dark_grey"
     tools:context=".DopstatisticActivity">
 
     <FrameLayout
@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
-            android:textColor="@color/black"/>
+            android:textColor="@color/root_color"/>
 
 
 
@@ -45,7 +45,7 @@
                     android:layout_marginVertical="12dp"
                     android:text="ИСПЫТАНИЯ"
                     android:layout_gravity="center_vertical"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
                 <TextView
                     android:textSize="14sp"
@@ -56,7 +56,7 @@
                     android:layout_gravity="center_vertical"
                     android:text="НОРМАТИВЫ"
 
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
             </LinearLayout>
 
@@ -74,7 +74,7 @@
                     android:layout_marginVertical="12dp"
                     android:id="@+id/normative_1"
                     android:layout_gravity="center_vertical"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
                 <TextView
                     android:textSize="17sp"
@@ -84,7 +84,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="70dp"
                     android:layout_gravity="center_vertical"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
             </LinearLayout>
 
 
@@ -101,7 +101,7 @@
                     android:layout_marginVertical="12dp"
                     android:layout_gravity="center_vertical"
                     android:id="@+id/normative_2"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
                 <TextView
                     android:textSize="17sp"
@@ -113,7 +113,7 @@
                     android:layout_marginHorizontal="70dp"
                     android:layout_gravity="center_vertical"
 
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
             </LinearLayout>
 
 
@@ -130,7 +130,7 @@
                     android:layout_marginVertical="12dp"
                     android:id="@+id/normative_3"
 
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
                 <TextView
                     android:textSize="17sp"
@@ -141,7 +141,7 @@
 
                     android:layout_marginHorizontal="70dp"
                     android:layout_gravity="center_vertical"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
             </LinearLayout>
 
 
@@ -160,7 +160,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="5dp"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
                 <TextView
                     android:textSize="17sp"
@@ -170,7 +170,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="70dp"
                     android:layout_gravity="center_vertical"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
             </LinearLayout>
 
 
@@ -189,7 +189,7 @@
                     android:layout_marginVertical="5dp"
                     android:id="@+id/normative_5"
 
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
                 <TextView
                     android:textSize="17sp"
@@ -200,7 +200,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="70dp"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
             </LinearLayout>
 
 
@@ -218,7 +218,7 @@
                     android:layout_marginVertical="5dp"
 
                     android:id="@+id/normative_6"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
                 <TextView
                     android:textSize="17sp"
@@ -228,7 +228,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="70dp"
                     android:layout_gravity="center_vertical"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
             </LinearLayout>
 
@@ -246,7 +246,7 @@
                     android:layout_marginVertical="5dp"
 
                     android:id="@+id/normative_7"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
                 <TextView
                     android:textSize="17sp"
@@ -256,7 +256,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="70dp"
                     android:layout_gravity="center_vertical"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
 
             </LinearLayout>
@@ -274,7 +274,7 @@
                     android:layout_marginVertical="5dp"
                     android:layout_gravity="center_vertical"
                     android:id="@+id/normative_8"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
                 <TextView
                     android:textSize="17sp"
@@ -284,7 +284,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="70dp"
                     android:layout_gravity="center_vertical"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
 
 
@@ -306,7 +306,7 @@
                     android:layout_marginVertical="5dp"
 
                     android:id="@+id/normative_9"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
                 <TextView
                     android:textSize="17sp"
@@ -316,7 +316,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="70dp"
                     android:layout_gravity="center_vertical"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
 
 
@@ -338,7 +338,7 @@
                     android:layout_marginVertical="5dp"
 
                     android:id="@+id/normative_10"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
                 <TextView
                     android:textSize="17sp"
@@ -348,7 +348,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="70dp"
                     android:layout_gravity="center_vertical"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
             </LinearLayout>
 
@@ -368,7 +368,7 @@
                     android:layout_marginVertical="5dp"
 
                     android:id="@+id/normative_11"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
                 <TextView
                     android:textSize="17sp"
@@ -378,7 +378,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="70dp"
                     android:layout_gravity="center_vertical"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
             </LinearLayout>
 
@@ -397,7 +397,7 @@
                     android:layout_marginVertical="5dp"
 
                     android:id="@+id/normative_12"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
                 <TextView
                     android:textSize="17sp"
@@ -407,7 +407,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="70dp"
                     android:layout_gravity="center_vertical"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
             </LinearLayout>
 
@@ -427,7 +427,7 @@
                     android:layout_marginVertical="5dp"
                     android:layout_gravity="center_vertical"
                     android:id="@+id/normative_13"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
                 <TextView
                     android:textSize="17sp"
@@ -437,14 +437,15 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="70dp"
                     android:layout_gravity="center_vertical"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/root_color" />
 
             </LinearLayout>
 
             <Button
                 android:id="@+id/back"
                 android:textSize="17sp"
-
+android:background="@drawable/perehod_button"
+android:textColor="@drawable/perehod_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|start"
