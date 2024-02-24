@@ -29,22 +29,22 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 10м (с)");
-                binding.normative2.setText("1.2 Бег 30м (с)");
-                binding.normative3.setText("2.1 Шестиминутный бег (м)");
-                binding.normative4.setText("2.2 Ходьба на лыжах (м)");
-                binding.normative5.setText("2.3 Смешанное передвижение по пересечённой местности (м)");
-                binding.normative6.setText("3.1 Бросок набивного мяча (1кг) двумя руками из-за головы из исходного положения: ноги на ширине плеч, мяч в руках внизу (см)");
-                binding.normative7.setText("3.2 Поднимание туловища из положения лежа на спине (количество раз за 30 с)");
-                binding.normative8.setText("3.3 прыжок в длину с места толчком двумя ногами (см)");
-                binding.normative9.setText("4 Наклон вперед из положения стоя на гимнастической скамье\n" +
+                binding.normative1.setText(" Бег 10м (с)");
+                binding.normative2.setText(" Бег 30м (с)");
+                binding.normative3.setText(" Шестиминутный бег (м)");
+                binding.normative4.setText(" Ходьба на лыжах (м)");
+                binding.normative5.setText(" Смешанное передвижение по пересечённой местности (м)");
+                binding.normative6.setText(" Бросок набивного мяча (1кг) двумя руками из-за головы из исходного положения: ноги на ширине плеч, мяч в руках внизу (см)");
+                binding.normative7.setText(" Поднимание туловища из положения лежа на спине (количество раз за 30 с)");
+                binding.normative8.setText(" прыжок в длину с места толчком двумя ногами (см)");
+                binding.normative10.setText("Наклон вперед из положения стоя на гимнастической скамье\n" +
                         "(от уровня скамьи – см) ");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
 
-                binding.static1.setText("3.1");
+                binding.static1.setText("");
                 binding.static2.setText("8.3");
                 binding.static3.setText("800");
                 binding.static4.setText("1400");
@@ -52,8 +52,8 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("305");
                 binding.static7.setText("15");
                 binding.static8.setText("115");
-                binding.static9.setText("+7");
-                binding.static10.setVisibility(View.GONE);
+                binding.static10.setText("+7");
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -62,17 +62,17 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 10м (с)");
-                binding.normative2.setText("1.2 Бег 30м (с)");
-                binding.normative3.setText("2.1 Шестиминутный бег (м)");
-                binding.normative4.setText("2.2 Ходьба на лыжах (м)");
-                binding.normative5.setText("2.3 Смешанное передвижение по пересечённой местности (м)");
-                binding.normative6.setText("3.1 Бросок набивного мяча (1кг) двумя руками из-за головы из исходного положения: ноги на ширине плеч, мяч в руках внизу (см)");
-                binding.normative7.setText("3.2 Поднимание туловища из положения лежа на спине (количество раз за 30 с)");
-                binding.normative8.setText("3.3 прыжок в длину с места толчком двумя ногами (см)");
-                binding.normative9.setText("4 Наклон вперед из положения стоя на гимнастической скамье\n" +
+                binding.normative1.setText(" Бег 10м (с)");
+                binding.normative2.setText(" Бег 30м (с)");
+                binding.normative3.setText(" Шестиминутный бег (м)");
+                binding.normative4.setText(" Ходьба на лыжах (м)");
+                binding.normative5.setText(" Смешанное передвижение по пересечённой местности (м)");
+                binding.normative6.setText(" Бросок набивного мяча (1кг) двумя руками из-за головы из исходного положения: ноги на ширине плеч, мяч в руках внизу (см)");
+                binding.normative7.setText(" Поднимание туловища из положения лежа на спине (количество раз за 30 с)");
+                binding.normative8.setText(" прыжок в длину с места толчком двумя ногами (см)");
+                binding.normative10.setText("Наклон вперед из положения стоя на гимнастической скамье\n" +
                         "(от уровня скамьи – см) ");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -85,8 +85,8 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("220");
                 binding.static7.setText("12");
                 binding.static8.setText("95");
-                binding.static9.setText("+3");
-                binding.static10.setVisibility(View.GONE);
+                binding.static10.setText("+3");
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -96,17 +96,17 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 10м (с)");
-                binding.normative2.setText("1.2 Бег 30м (с)");
-                binding.normative3.setText("2.1 Шестиминутный бег (м)");
-                binding.normative4.setText("2.2 Ходьба на лыжах (м)");
-                binding.normative5.setText("2.3 Смешанное передвижение по пересечённой местности (м)");
-                binding.normative6.setText("3.1 Бросок набивного мяча (1кг) двумя руками из-за головы из исходного положения: ноги на ширине плеч, мяч в руках внизу (см)");
-                binding.normative7.setText("3.2 Поднимание туловища из положения лежа на спине (количество раз за 30 с)");
-                binding.normative8.setText("3.3 прыжок в длину с места толчком двумя ногами (см)");
-                binding.normative9.setText("4 Наклон вперед из положения стоя на гимнастической скамье\n" +
+                binding.normative1.setText(" Бег 10м (с)");
+                binding.normative2.setText(" Бег 30м (с)");
+                binding.normative3.setText(" Шестиминутный бег (м)");
+                binding.normative4.setText(" Ходьба на лыжах (м)");
+                binding.normative5.setText(" Смешанное передвижение по пересечённой местности (м)");
+                binding.normative6.setText(" Бросок набивного мяча (1кг) двумя руками из-за головы из исходного положения: ноги на ширине плеч, мяч в руках внизу (см)");
+                binding.normative7.setText(" Поднимание туловища из положения лежа на спине (количество раз за 30 с)");
+                binding.normative8.setText(" прыжок в длину с места толчком двумя ногами (см)");
+                binding.normative10.setText("Наклон вперед из положения стоя на гимнастической скамье\n" +
                         "(от уровня скамьи – см) ");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -119,8 +119,8 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("210");
                 binding.static7.setText("11");
                 binding.static8.setText("85");
-                binding.static9.setText("+1");
-                binding.static10.setVisibility(View.GONE);
+                binding.static10.setText("+1");
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -130,17 +130,17 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 10м (с)");
-                binding.normative2.setText("1.2 Бег 30м (с)");
-                binding.normative3.setText("2.1 Шестиминутный бег (м)");
-                binding.normative4.setText("2.2 Ходьба на лыжах (м)");
-                binding.normative5.setText("2.3 Смешанное передвижение по пересечённой местности (м)");
-                binding.normative6.setText("3.1 Бросок набивного мяча (1кг) двумя руками из-за головы из исходного положения: ноги на ширине плеч, мяч в руках внизу (см)");
-                binding.normative7.setText("3.2 Поднимание туловища из положения лежа на спине (количество раз за 30 с)");
-                binding.normative8.setText("3.3 прыжок в длину с места толчком двумя ногами (см)");
-                binding.normative9.setText("4 Наклон вперед из положения стоя на гимнастической скамье\n" +
+                binding.normative1.setText(" Бег 10м (с)");
+                binding.normative2.setText(" Бег 30м (с)");
+                binding.normative3.setText(" Шестиминутный бег (м)");
+                binding.normative4.setText(" Ходьба на лыжах (м)");
+                binding.normative5.setText(" Смешанное передвижение по пересечённой местности (м)");
+                binding.normative6.setText(" Бросок набивного мяча (1кг) двумя руками из-за головы из исходного положения: ноги на ширине плеч, мяч в руках внизу (см)");
+                binding.normative7.setText(" Поднимание туловища из положения лежа на спине (количество раз за 30 с)");
+                binding.normative8.setText(" прыжок в длину с места толчком двумя ногами (см)");
+                binding.normative10.setText("Наклон вперед из положения стоя на гимнастической скамье\n" +
                         "(от уровня скамьи – см) ");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -153,8 +153,8 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("250");
                 binding.static7.setText("14");
                 binding.static8.setText("107");
-                binding.static9.setText("+9");
-                binding.static10.setVisibility(View.GONE);
+                binding.static10.setText("+9");
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -164,17 +164,17 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 10м (с)");
-                binding.normative2.setText("1.2 Бег 30м (с)");
-                binding.normative3.setText("2.1 Шестиминутный бег (м)");
-                binding.normative4.setText("2.2 Ходьба на лыжах (м)");
-                binding.normative5.setText("2.3 Смешанное передвижение по пересечённой местности (м)");
-                binding.normative6.setText("3.1 Бросок набивного мяча (1кг) двумя руками из-за головы из исходного положения: ноги на ширине плеч, мяч в руках внизу (см)");
-                binding.normative7.setText("3.2 Поднимание туловища из положения лежа на спине (количество раз за 30 с)");
-                binding.normative8.setText("3.3 прыжок в длину с места толчком двумя ногами (см)");
-                binding.normative9.setText("4 Наклон вперед из положения стоя на гимнастической скамье\n" +
+                binding.normative1.setText(" Бег 10м (с)");
+                binding.normative2.setText(" Бег 30м (с)");
+                binding.normative3.setText(" Шестиминутный бег (м)");
+                binding.normative4.setText(" Ходьба на лыжах (м)");
+                binding.normative5.setText(" Смешанное передвижение по пересечённой местности (м)");
+                binding.normative6.setText(" Бросок набивного мяча (1кг) двумя руками из-за головы из исходного положения: ноги на ширине плеч, мяч в руках внизу (см)");
+                binding.normative7.setText(" Поднимание туловища из положения лежа на спине (количество раз за 30 с)");
+                binding.normative8.setText(" прыжок в длину с места толчком двумя ногами (см)");
+                binding.normative10.setText("Наклон вперед из положения стоя на гимнастической скамье\n" +
                         "(от уровня скамьи – см) ");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -187,8 +187,8 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("155");
                 binding.static7.setText("11");
                 binding.static8.setText("87");
-                binding.static9.setText("+5");
-                binding.static10.setVisibility(View.GONE);
+                binding.static10.setText("+5");
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -198,17 +198,17 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 10м (с)");
-                binding.normative2.setText("1.2 Бег 30м (с)");
-                binding.normative3.setText("2.1 Шестиминутный бег (м)");
-                binding.normative4.setText("2.2 Ходьба на лыжах (м)");
-                binding.normative5.setText("2.3 Смешанное передвижение по пересечённой местности (м)");
-                binding.normative6.setText("3.1 Бросок набивного мяча (1кг) двумя руками из-за головы из исходного положения: ноги на ширине плеч, мяч в руках внизу (см)");
-                binding.normative7.setText("3.2 Поднимание туловища из положения лежа на спине (количество раз за 30 с)");
-                binding.normative8.setText("3.3 прыжок в длину с места толчком двумя ногами (см)");
-                binding.normative9.setText("4 Наклон вперед из положения стоя на гимнастической скамье\n" +
+                binding.normative1.setText(" Бег 10м (с)");
+                binding.normative2.setText(" Бег 30м (с)");
+                binding.normative3.setText(" Шестиминутный бег (м)");
+                binding.normative4.setText(" Ходьба на лыжах (м)");
+                binding.normative5.setText(" Смешанное передвижение по пересечённой местности (м)");
+                binding.normative6.setText(" Бросок набивного мяча (1кг) двумя руками из-за головы из исходного положения: ноги на ширине плеч, мяч в руках внизу (см)");
+                binding.normative7.setText(" Поднимание туловища из положения лежа на спине (количество раз за 30 с)");
+                binding.normative8.setText(" прыжок в длину с места толчком двумя ногами (см)");
+                binding.normative10.setText("Наклон вперед из положения стоя на гимнастической скамье\n" +
                         "(от уровня скамьи – см) ");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -221,8 +221,8 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("145");
                 binding.static7.setText("10");
                 binding.static8.setText("77");
-                binding.static9.setText("+3");
-                binding.static10.setVisibility(View.GONE);
+                binding.static10.setText("+3");
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -235,17 +235,17 @@ public class StatisticActivity extends AppCompatActivity {
                 //======================================================================== Название нормативов
                 binding.normative1.setText(" Бег 30м (с)");
                 binding.normative2.setVisibility(View.GONE);
-                binding.normative3.setText("2.1 Смешанное передвижение на 1000 м (мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на 1 км\n"+"(мин, с)");
-                binding.normative5.setText("2.3 Смешанное передвижение по пересечённой местностина 1 км (мин, с)");
-                binding.normative6.setText("3.1 Подтягивание из виса на высокой перекладине (кол-во раз)");
-                binding.normative7.setText("3.2 Подтягивание из виса лёжа на низкой перекладине 90 см (кол-во раз)");
-                binding.normative8.setText("3.3 Сгибание и разгибание\n" +
+                binding.normative3.setText(" Смешанное передвижение на 1000 м (мин, с)");
+                binding.normative4.setText(" Бег на лыжах на 1 км\n"+"(мин, с)");
+                binding.normative5.setText(" Смешанное передвижение по пересечённой местностина 1 км (мин, с)");
+                binding.normative6.setText(" Подтягивание из виса на высокой перекладине (кол-во раз)");
+                binding.normative7.setText(" Подтягивание из виса лёжа на низкой перекладине 90 см (кол-во раз)");
+                binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText("4 Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
+                binding.normative10.setText("Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
 
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -260,10 +260,10 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("5");
                 binding.static7.setText("16");
                 binding.static8.setText("18");
-                binding.static9.setText("+7");
+                binding.static10.setText("+7");
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -276,17 +276,17 @@ public class StatisticActivity extends AppCompatActivity {
                 //======================================================================== Название нормативов
                binding.normative1.setText(" Бег 30м (с)");
                 binding.normative2.setVisibility(View.GONE);
-                binding.normative3.setText("2.1 Смешанное передвижение на 1000 м (мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на 1 км\n"+"(мин, с)");
-                binding.normative5.setText("2.3 Смешанное передвижение по пересечённой местностина 1 км (мин, с)");
-                binding.normative6.setText("3.1 Подтягивание из виса на высокой перекладине (кол-во раз)");
-                binding.normative7.setText("3.2 Подтягивание из виса лёжа на низкой перекладине 90 см (кол-во раз)");
-                binding.normative8.setText("3.3 Сгибание и разгибание\n" +
+                binding.normative3.setText(" Смешанное передвижение на 1000 м (мин, с)");
+                binding.normative4.setText(" Бег на лыжах на 1 км\n"+"(мин, с)");
+                binding.normative5.setText(" Смешанное передвижение по пересечённой местностина 1 км (мин, с)");
+                binding.normative6.setText(" Подтягивание из виса на высокой перекладине (кол-во раз)");
+                binding.normative7.setText(" Подтягивание из виса лёжа на низкой перекладине 90 см (кол-во раз)");
+                binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText("4 Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
+                binding.normative10.setText("Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
 
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -301,10 +301,10 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("4");
                 binding.static7.setText("10");
                 binding.static8.setText("11");
-                binding.static9.setText("+3");
+                binding.static10.setText("+3");
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -315,17 +315,17 @@ public class StatisticActivity extends AppCompatActivity {
                 //======================================================================== Название нормативов
                binding.normative1.setText(" Бег 30м (с)");
                 binding.normative2.setVisibility(View.GONE);
-                binding.normative3.setText("2.1 Смешанное передвижение на 1000 м (мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на 1 км\n"+"(мин, с)");
-                binding.normative5.setText("2.3 Смешанное передвижение по пересечённой местностина 1 км (мин, с)");
-                binding.normative6.setText("3.1 Подтягивание из виса на высокой перекладине (кол-во раз)");
-                binding.normative7.setText("3.2 Подтягивание из виса лёжа на низкой перекладине 90 см (кол-во раз)");
-                binding.normative8.setText("3.3 Сгибание и разгибание\n" +
+                binding.normative3.setText(" Смешанное передвижение на 1000 м (мин, с)");
+                binding.normative4.setText(" Бег на лыжах на 1 км\n"+"(мин, с)");
+                binding.normative5.setText(" Смешанное передвижение по пересечённой местностина 1 км (мин, с)");
+                binding.normative6.setText(" Подтягивание из виса на высокой перекладине (кол-во раз)");
+                binding.normative7.setText(" Подтягивание из виса лёжа на низкой перекладине 90 см (кол-во раз)");
+                binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText("4 Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
+                binding.normative10.setText("Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
 
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -340,9 +340,9 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("2");
                 binding.static7.setText("6");
                 binding.static8.setText("5");
-                binding.static9.setText("+1");
+                binding.static10.setText("+1");
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -355,17 +355,17 @@ public class StatisticActivity extends AppCompatActivity {
                 //======================================================================== Название нормативов
                 binding.normative1.setText(" Бег 30м (с)");
                 binding.normative2.setVisibility(View.GONE);
-                binding.normative3.setText("2.1 Смешанное передвижение на 1000 м (мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на 1 км\n"+"(мин, с)");
+                binding.normative3.setText(" Смешанное передвижение на 1000 м (мин, с)");
+                binding.normative4.setText(" Бег на лыжах на 1 км\n"+"(мин, с)");
                 binding.normative5.setVisibility(View.GONE);
-                binding.normative6.setText("2.3 Смешанное передвижение по пересечённой местностина 1 км (мин, с)");
+                binding.normative6.setText(" Смешанное передвижение по пересечённой местностина 1 км (мин, с)");
 
-                binding.normative7.setText("3.1 Подтягивание из виса лёжа на низкой перекладине 90 см (кол-во раз)");
-                binding.normative8.setText("3.2 Сгибание и разгибание\n" +
+                binding.normative7.setText(" Подтягивание из виса лёжа на низкой перекладине 90 см (кол-во раз)");
+                binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText("4 Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                binding.normative10.setText("Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
+                
 
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
@@ -381,11 +381,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("6:23");
                 binding.static7.setText("12");
                 binding.static8.setText("12");
-                binding.static9.setText("+9");
+                binding.static10.setText("+9");
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -406,8 +406,8 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText(" Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                binding.normative10.setText(" Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
+                
 
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
@@ -423,11 +423,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("7:20");
                 binding.static7.setText("7");
                 binding.static8.setText("7");
-                binding.static9.setText("+5");
+                binding.static10.setText("+5");
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -439,17 +439,17 @@ public class StatisticActivity extends AppCompatActivity {
                 //======================================================================== Название нормативов
                 binding.normative1.setText(" Бег 30м (с)");
                 binding.normative2.setVisibility(View.GONE);
-                binding.normative3.setText("2.1 Смешанное передвижение на 1000 м (мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на 1 км\n"+"(мин, с)");
+                binding.normative3.setText(" Смешанное передвижение на 1000 м (мин, с)");
+                binding.normative4.setText(" Бег на лыжах на 1 км\n"+"(мин, с)");
                 binding.normative5.setVisibility(View.GONE);
-                binding.normative6.setText("2.3 Смешанное передвижение по пересечённой местностина 1 км (мин, с)");
+                binding.normative6.setText(" Смешанное передвижение по пересечённой местностина 1 км (мин, с)");
 
-                binding.normative7.setText("3.1 Подтягивание из виса лёжа на низкой перекладине 90 см (кол-во раз)");
-                binding.normative8.setText("3.2 Сгибание и разгибание\n" +
+                binding.normative7.setText(" Подтягивание из виса лёжа на низкой перекладине 90 см (кол-во раз)");
+                binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText("4 Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                binding.normative10.setText("Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
+                
 
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
@@ -465,11 +465,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("9:44");
                 binding.static7.setText("4");
                 binding.static8.setText("4");
-                binding.static9.setText("+3");
+                binding.static10.setText("+3");
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -495,8 +495,8 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText(" Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                binding.normative10.setText(" Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -511,10 +511,10 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("6");
                 binding.static7.setText("21");
                 binding.static8.setText("22");
-                binding.static9.setText("+8");
+                binding.static10.setText("+8");
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -540,8 +540,8 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText(" Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                binding.normative10.setText(" Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -559,10 +559,10 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("4");
                 binding.static7.setText("13");
                 binding.static8.setText("13");
-                binding.static9.setText("+4");
+                binding.static10.setText("+4");
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -587,8 +587,8 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText(" Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                binding.normative10.setText(" Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -606,9 +606,9 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("2");
                 binding.static7.setText("8");
                 binding.static8.setText("10");
-                binding.static9.setText("+2");
+                binding.static10.setText("+2");
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -634,10 +634,10 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText(" Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
+                binding.normative10.setText(" Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
 
 
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -653,10 +653,10 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("16");
                 binding.static7.setVisibility(View.GONE);
                 binding.static8.setText("13");
-                binding.static9.setText("+11");
+                binding.static10.setText("+11");
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -681,10 +681,10 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText(" Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
+                binding.normative10.setText(" Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
 
 
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -699,11 +699,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("10");
                 binding.static7.setVisibility(View.GONE);
                 binding.static8.setText("7");
-                binding.static9.setText("+5");
+                binding.static10.setText("+5");
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -729,10 +729,10 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText(" Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
+                binding.normative10.setText(" Наклон вперед из положения стоя на гимнастической скамье (от уровня скамьи – см)");
 
                 binding.normative9.setVisibility(View.GONE);
-                binding.normative10.setVisibility(View.GONE);
+               
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -748,11 +748,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("7");
                 binding.static7.setVisibility(View.GONE);
                 binding.static8.setText("5");
-                binding.static9.setText("+3");
+                binding.static10.setText("+3");
 
 
                 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -783,11 +783,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText("Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText(" Наклон вперед из\n" +
+                binding.normative10.setText(" Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -802,9 +802,9 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("8");
                 binding.static7.setText("24");
                 binding.static8.setText("29");
-                binding.static9.setText("+9");
+                binding.static10.setText("+9");
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -833,11 +833,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText("Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText(" Наклон вперед из\n" +
+                binding.normative10.setText(" Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -851,9 +851,9 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("5");
                 binding.static7.setText("16");
                 binding.static8.setText("18");
-                binding.static9.setText("+5");
+                binding.static10.setText("+5");
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -881,11 +881,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText("Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText(" Наклон вперед из\n" +
+                binding.normative10.setText(" Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -899,9 +899,9 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("5");
                 binding.static7.setText("16");
                 binding.static8.setText("18");
-                binding.static9.setText("+5");
+                binding.static10.setText("+5");
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -932,11 +932,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText(" Наклон вперед из\n" +
+                binding.normative10.setText(" Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -953,9 +953,9 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("18");
                 binding.static7.setVisibility(View.GONE);
                 binding.static8.setText("15");
-                binding.static9.setText("+13");
+                binding.static10.setText("+13");
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -986,11 +986,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText(" Наклон вперед из\n" +
+                binding.normative10.setText(" Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -1005,10 +1005,10 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("12");
                 binding.static7.setVisibility(View.GONE);
                 binding.static8.setText("9");
-                binding.static9.setText("+6");
+                binding.static10.setText("+6");
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -1040,11 +1040,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText(" Наклон вперед из\n" +
+                binding.normative10.setText(" Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -1062,10 +1062,10 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("8");
                 binding.static7.setVisibility(View.GONE);
                 binding.static8.setText("6");
-                binding.static9.setText("+4");
+                binding.static10.setText("+4");
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -1076,30 +1076,30 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 30м (с)");
-                binding.normative2.setText("1.2 Бег на 60 м (с)");
-                binding.normative3.setText("2.1 Бег на 2000 м\n" +
+                binding.normative1.setText(" Бег 30м (с)");
+                binding.normative2.setText(" Бег на 60 м (с)");
+                binding.normative3.setText(" Бег на 2000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                binding.normative4.setText(" Бег на лыжах на\n" +
                         "3 км (мин, с)");
-                binding.normative5.setText("2.3 Кросс на 3 км (бег по\n" +
+                binding.normative5.setText(" Кросс на 3 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
-                binding.normative6.setText("3.1 Подтягивание из виса на\n" +
+                binding.normative6.setText(" Подтягивание из виса на\n" +
                         "высокой перекладине\n" +
                         "(количество раз)");
-                binding.normative7.setText("3.2 Подтягивание из виса\n" +
+                binding.normative7.setText(" Подтягивание из виса\n" +
                         "лежа на низкой\n" +
                         "перекладине\n" +
                         "90 см (количество раз)");
-                binding.normative8.setText("3.3 Сгибание и разгибание\n" +
+                binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -1114,9 +1114,9 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("13");
                 binding.static7.setText("25");
                 binding.static8.setText("37");
-                binding.static9.setText("+11");
+                binding.static10.setText("+11");
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -1126,30 +1126,30 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 30м (с)");
-                binding.normative2.setText("1.2 Бег на 60 м (с)");
-                binding.normative3.setText("2.1 Бег на 2000 м\n" +
+                binding.normative1.setText(" Бег 30м (с)");
+                binding.normative2.setText(" Бег на 60 м (с)");
+                binding.normative3.setText(" Бег на 2000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                binding.normative4.setText(" Бег на лыжах на\n" +
                         "3 км (мин, с)");
-                binding.normative5.setText("2.3 Кросс на 3 км (бег по\n" +
+                binding.normative5.setText(" Кросс на 3 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
-                binding.normative6.setText("3.1 Подтягивание из виса на\n" +
+                binding.normative6.setText(" Подтягивание из виса на\n" +
                         "высокой перекладине\n" +
                         "(количество раз)");
-                binding.normative7.setText("3.2 Подтягивание из виса\n" +
+                binding.normative7.setText(" Подтягивание из виса\n" +
                         "лежа на низкой\n" +
                         "перекладине\n" +
                         "90 см (количество раз)");
-                binding.normative8.setText("3.3 Сгибание и разгибание\n" +
+                binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -1164,9 +1164,9 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("9");
                 binding.static7.setText("18");
                 binding.static8.setText("25");
-                binding.static9.setText("+6");
+                binding.static10.setText("+6");
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -1175,30 +1175,30 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 30м (с)");
-                binding.normative2.setText("1.2 Бег на 60 м (с)");
-                binding.normative3.setText("2.1 Бег на 2000 м\n" +
+                binding.normative1.setText(" Бег 30м (с)");
+                binding.normative2.setText(" Бег на 60 м (с)");
+                binding.normative3.setText(" Бег на 2000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                binding.normative4.setText(" Бег на лыжах на\n" +
                         "3 км (мин, с)");
-                binding.normative5.setText("2.3 Кросс на 3 км (бег по\n" +
+                binding.normative5.setText(" Кросс на 3 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
-                binding.normative6.setText("3.1 Подтягивание из виса на\n" +
+                binding.normative6.setText(" Подтягивание из виса на\n" +
                         "высокой перекладине\n" +
                         "(количество раз)");
-                binding.normative7.setText("3.2 Подтягивание из виса\n" +
+                binding.normative7.setText(" Подтягивание из виса\n" +
                         "лежа на низкой\n" +
                         "перекладине\n" +
                         "90 см (количество раз)");
-                binding.normative8.setText("3.3 Сгибание и разгибание\n" +
+                binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -1213,9 +1213,9 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("5");
                 binding.static7.setText("12");
                 binding.static8.setText("19");
-                binding.static9.setText("+4");
+                binding.static10.setText("+4");
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -1243,11 +1243,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText(" Наклон вперед из\n" +
+                binding.normative10.setText(" Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -1262,10 +1262,10 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("19");
                 binding.static7.setVisibility(View.GONE);
                 binding.static8.setText("16");
-                binding.static9.setText("+15");
+                binding.static10.setText("+15");
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -1293,11 +1293,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText(" Наклон вперед из\n" +
+                binding.normative10.setText(" Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -1312,10 +1312,10 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("13");
                 binding.static7.setVisibility(View.GONE);
                 binding.static8.setText("11");
-                binding.static9.setText("+8");
+                binding.static10.setText("+8");
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -1344,11 +1344,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText(" Наклон вперед из\n" +
+                binding.normative10.setText(" Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -1363,10 +1363,10 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("9");
                 binding.static7.setVisibility(View.GONE);
                 binding.static8.setText("7");
-                binding.static9.setText("+5");
+                binding.static10.setText("+5");
 
                 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -1376,28 +1376,28 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 30м (с)");
-                binding.normative2.setText("1.2 Бег на 100 м (с)");
-                binding.normative3.setText("2.1 Бег на 3000 м\n" +
+                binding.normative1.setText(" Бег 30м (с)");
+                binding.normative2.setText(" Бег на 100 м (с)");
+                binding.normative3.setText(" Бег на 3000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                binding.normative4.setText(" Бег на лыжах на\n" +
                         "5 км (мин, с)");
-                binding.normative5.setText("2.3 Кросс на 5 км (бег по\n" +
+                binding.normative5.setText(" Кросс на 5 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
-                binding.normative6.setText("3.1 Подтягивание из виса на\n" +
+                binding.normative6.setText(" Подтягивание из виса на\n" +
                         "высокой перекладине\n" +
                         "(количество раз)");
-                binding.normative7.setText("3.2 Рывок гири 16 кг\n" +
+                binding.normative7.setText(" Рывок гири 16 кг\n" +
                         "(количество раз)");
-                binding.normative8.setText("3.3 Сгибание и разгибание\n" +
+                binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -1405,16 +1405,16 @@ public class StatisticActivity extends AppCompatActivity {
 
 
                 binding.static1.setText("7.9");
-                binding.static2.setText("13.2");
+                binding.static2.setText("1");
                 binding.static3.setText("12:20");
                 binding.static4.setText("23:40");
                 binding.static5.setText("23:00");
                 binding.static6.setText("15");
                 binding.static7.setText("34");
                 binding.static8.setText("43");
-                binding.static9.setText("+13");
+                binding.static10.setText("+13");
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -1424,28 +1424,28 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 30м (с)");
-                binding.normative2.setText("1.2 Бег на 100 м (с)");
-                binding.normative3.setText("2.1 Бег на 3000 м\n" +
+                binding.normative1.setText(" Бег 30м (с)");
+                binding.normative2.setText(" Бег на 100 м (с)");
+                binding.normative3.setText(" Бег на 3000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                binding.normative4.setText(" Бег на лыжах на\n" +
                         "5 км (мин, с)");
-                binding.normative5.setText("2.3 Кросс на 5 км (бег по\n" +
+                binding.normative5.setText(" Кросс на 5 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
-                binding.normative6.setText("3.1 Подтягивание из виса на\n" +
+                binding.normative6.setText(" Подтягивание из виса на\n" +
                         "высокой перекладине\n" +
                         "(количество раз)");
-                binding.normative7.setText("3.2 Рывок гири 16 кг\n" +
+                binding.normative7.setText(" Рывок гири 16 кг\n" +
                         "(количество раз)");
-                binding.normative8.setText("3.3 Сгибание и разгибание\n" +
+                binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -1460,9 +1460,9 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("12");
                 binding.static7.setText("19");
                 binding.static8.setText("32");
-                binding.static9.setText("+8");
+                binding.static10.setText("+8");
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -1473,28 +1473,28 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 30м (с)");
-                binding.normative2.setText("1.2 Бег на 100 м (с)");
-                binding.normative3.setText("2.1 Бег на 3000 м\n" +
+                binding.normative1.setText(" Бег 30м (с)");
+                binding.normative2.setText(" Бег на 100 м (с)");
+                binding.normative3.setText(" Бег на 3000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                binding.normative4.setText(" Бег на лыжах на\n" +
                         "5 км (мин, с)");
-                binding.normative5.setText("2.3 Кросс на 5 км (бег по\n" +
+                binding.normative5.setText(" Кросс на 5 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
-                binding.normative6.setText("3.1 Подтягивание из виса на\n" +
+                binding.normative6.setText(" Подтягивание из виса на\n" +
                         "высокой перекладине\n" +
                         "(количество раз)");
-                binding.normative7.setText("3.2 Рывок гири 16 кг\n" +
+                binding.normative7.setText(" Рывок гири 16 кг\n" +
                         "(количество раз)");
-                binding.normative8.setText("3.3 Сгибание и разгибание\n" +
+                binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -1509,9 +1509,9 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("8");
                 binding.static7.setText("14");
                 binding.static8.setText("25");
-                binding.static9.setText("+6");
+                binding.static10.setText("+6");
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -1542,13 +1542,13 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText(" Наклон вперед из\n" +
+                binding.normative10.setText(" Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
 
 
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -1563,11 +1563,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("20");
                 binding.static7.setVisibility(View.GONE);
                 binding.static8.setText("17");
-                binding.static9.setText("+16");
+                binding.static10.setText("+16");
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -1598,13 +1598,13 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText(" Наклон вперед из\n" +
+                binding.normative10.setText(" Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
 
                 
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -1618,11 +1618,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("14");
                 binding.static7.setVisibility(View.GONE);
                 binding.static8.setText("12");
-                binding.static9.setText("+9");
+                binding.static10.setText("+9");
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -1654,13 +1654,13 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText(" Наклон вперед из\n" +
+                binding.normative10.setText(" Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
 
                 
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -1674,11 +1674,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("10");
                 binding.static7.setVisibility(View.GONE);
                 binding.static8.setText("8");
-                binding.static9.setText("+7");
+                binding.static10.setText("+7");
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -1699,37 +1699,37 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 60м (с)");
-                binding.normative2.setText("1.2 Бег на 100 м (с)");
+                binding.normative1.setText(" Бег 60м (с)");
+                binding.normative2.setText(" Бег на 100 м (с)");
 
-                binding.normative3.setText("2.1 Бег на 3000 м\n" +
+                binding.normative3.setText(" Бег на 3000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                binding.normative4.setText(" Бег на лыжах на\n" +
                         "5 км (мин, с)");
 
-                binding.normative5.setText("2.3 Кросс на 5 км (бег по\n" +
+                binding.normative5.setText(" Кросс на 5 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
 
-                binding.normative6.setText("3.1 Подтягивание из виса на\n" +
+                binding.normative6.setText(" Подтягивание из виса на\n" +
                         "высокой перекладине\n" +
                         "(количество раз)");
 
-                binding.normative7.setText("3.2 Рывок гири 16 кг\n" +
+                binding.normative7.setText(" Рывок гири 16 кг\n" +
                         "(количество раз)");
 
 
 
-                binding.normative8.setText("3.3 Сгибание и разгибание\n" +
+                binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
 
 
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -1743,11 +1743,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("15");
                 binding.static7.setText("35");
                 binding.static8.setText("43");
-                binding.static9.setText("+13");
+                binding.static10.setText("+13");
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -1757,37 +1757,37 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 60м (с)");
-                binding.normative2.setText("1.2 Бег на 100 м (с)");
+                binding.normative1.setText(" Бег 60м (с)");
+                binding.normative2.setText(" Бег на 100 м (с)");
 
-                binding.normative3.setText("2.1 Бег на 3000 м\n" +
+                binding.normative3.setText(" Бег на 3000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                binding.normative4.setText(" Бег на лыжах на\n" +
                         "5 км (мин, с)");
 
-                binding.normative5.setText("2.3 Кросс на 5 км (бег по\n" +
+                binding.normative5.setText(" Кросс на 5 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
 
-                binding.normative6.setText("3.1 Подтягивание из виса на\n" +
+                binding.normative6.setText(" Подтягивание из виса на\n" +
                         "высокой перекладине\n" +
                         "(количество раз)");
 
-                binding.normative7.setText("3.2 Рывок гири 16 кг\n" +
+                binding.normative7.setText(" Рывок гири 16 кг\n" +
                         "(количество раз)");
 
 
 
-                binding.normative8.setText("3.3 Сгибание и разгибание\n" +
+                binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
 
 
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -1801,11 +1801,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("12");
                 binding.static7.setText("19");
                 binding.static8.setText("32");
-                binding.static9.setText("+8");
+                binding.static10.setText("+8");
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -1815,37 +1815,37 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 60м (с)");
-                binding.normative2.setText("1.2 Бег на 100 м (с)");
+                binding.normative1.setText(" Бег 60м (с)");
+                binding.normative2.setText(" Бег на 100 м (с)");
 
-                binding.normative3.setText("2.1 Бег на 3000 м\n" +
+                binding.normative3.setText(" Бег на 3000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                binding.normative4.setText(" Бег на лыжах на\n" +
                         "5 км (мин, с)");
 
-                binding.normative5.setText("2.3 Кросс на 5 км (бег по\n" +
+                binding.normative5.setText(" Кросс на 5 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
 
-                binding.normative6.setText("3.1 Подтягивание из виса на\n" +
+                binding.normative6.setText(" Подтягивание из виса на\n" +
                         "высокой перекладине\n" +
                         "(количество раз)");
 
-                binding.normative7.setText("3.2 Рывок гири 16 кг\n" +
+                binding.normative7.setText(" Рывок гири 16 кг\n" +
                         "(количество раз)");
 
 
 
-                binding.normative8.setText("3.3 Сгибание и разгибание\n" +
+                binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
 
 
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -1860,11 +1860,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("8");
                 binding.static7.setText("14");
                 binding.static8.setText("25");
-                binding.static9.setText("+6");
+                binding.static10.setText("+6");
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -1874,15 +1874,15 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 60м (с)");
-                binding.normative2.setText("1.2 Бег на 100 м (с)");
+                binding.normative1.setText(" Бег 60м (с)");
+                binding.normative2.setText(" Бег на 100 м (с)");
 
-                binding.normative3.setText("2.1 Бег на 2000 м\n" +
+                binding.normative3.setText(" Бег на 2000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                binding.normative4.setText(" Бег на лыжах на\n" +
                         "3 км (мин, с)");
 
-                binding.normative5.setText("2.3 Кросс на 3 км (бег по\n" +
+                binding.normative5.setText(" Кросс на 3 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
 
@@ -1892,16 +1892,16 @@ public class StatisticActivity extends AppCompatActivity {
                         "(количество раз)");
 
                 binding.normative7.setVisibility(View.GONE);
-                binding.normative8.setText("3.3 Сгибание и разгибание\n" +
+                binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
 
 
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -1916,11 +1916,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("20");
                 binding.static7.setVisibility(View.GONE);
                 binding.static8.setText("17");
-                binding.static9.setText("+16");
+                binding.static10.setText("+16");
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -1951,13 +1951,13 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText(" Наклон вперед из\n" +
+                binding.normative10.setText(" Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
 
                 
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -1971,11 +1971,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("14");
                 binding.static7.setVisibility(View.GONE);
                 binding.static8.setText("12");
-                binding.static9.setText("+9");
+                binding.static10.setText("+9");
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -2006,13 +2006,13 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
-                binding.normative9.setText(" Наклон вперед из\n" +
+                binding.normative10.setText(" Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
 
                 
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -2026,11 +2026,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("10");
                 binding.static7.setVisibility(View.GONE);
                 binding.static8.setText("8");
-                binding.static9.setText("+7");
+                binding.static10.setText("+7");
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -2040,38 +2040,38 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 60м (с)");
-                binding.normative2.setText("1.2 Бег на 100 м (с)");
+                binding.normative1.setText(" Бег 60м (с)");
+                binding.normative2.setText(" Бег на 100 м (с)");
 
-                binding.normative3.setText("2.1 Бег на 3000 м\n" +
+                binding.normative3.setText(" Бег на 3000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                binding.normative4.setText(" Бег на лыжах на\n" +
                         "5 км (мин, с)");
 
-                binding.normative5.setText("2.3 Кросс на 5 км (бег по\n" +
+                binding.normative5.setText(" Кросс на 5 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
 
-                binding.normative6.setText("3.1 Подтягивание из виса на\n" +
+                binding.normative6.setText(" Подтягивание из виса на\n" +
                         "высокой перекладине\n" +
                         "(количество раз)");
 
 
-                binding.normative7.setText("3.2 Сгибание и разгибание\n" +
+                binding.normative7.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
 
 
-                binding.normative8.setText("3.3 Рывок гири 16 кг\n" +
+                binding.normative8.setText(" Рывок гири 16 кг\n" +
                         "(количество раз)");
 
 
-                binding.normative9.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
 
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -2086,11 +2086,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("16");
                 binding.static7.setText("45");
                 binding.static8.setText("44");
-                binding.static9.setText("+13");
+                binding.static10.setText("+13");
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -2100,37 +2100,37 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 60м (с)");
-                binding.normative2.setText("1.2 Бег на 100 м (с)");
+                binding.normative1.setText(" Бег 60м (с)");
+                binding.normative2.setText(" Бег на 100 м (с)");
 
-                binding.normative3.setText("2.1 Бег на 3000 м\n" +
+                binding.normative3.setText(" Бег на 3000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                binding.normative4.setText(" Бег на лыжах на\n" +
                         "5 км (мин, с)");
 
-                binding.normative5.setText("2.3 Кросс на 5 км (бег по\n" +
+                binding.normative5.setText(" Кросс на 5 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
 
-                binding.normative6.setText("3.1 Подтягивание из виса на\n" +
+                binding.normative6.setText(" Подтягивание из виса на\n" +
                         "высокой перекладине\n" +
                         "(количество раз)");
 
 
-                binding.normative7.setText("3.2 Сгибание и разгибание\n" +
+                binding.normative7.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
 
 
-                binding.normative8.setText("3.3 Рывок гири 16 кг\n" +
+                binding.normative8.setText(" Рывок гири 16 кг\n" +
                         "(количество раз)");
 
 
-                binding.normative9.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -2145,11 +2145,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("13");
                 binding.static7.setText("33");
                 binding.static8.setText("26");
-                binding.static9.setText("+8");
+                binding.static10.setText("+8");
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -2160,37 +2160,37 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 60м (с)");
-                binding.normative2.setText("1.2 Бег на 100 м (с)");
+                binding.normative1.setText(" Бег 60м (с)");
+                binding.normative2.setText(" Бег на 100 м (с)");
 
-                binding.normative3.setText("2.1 Бег на 3000 м\n" +
+                binding.normative3.setText(" Бег на 3000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                binding.normative4.setText(" Бег на лыжах на\n" +
                         "5 км (мин, с)");
 
-                binding.normative5.setText("2.3 Кросс на 5 км (бег по\n" +
+                binding.normative5.setText(" Кросс на 5 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
 
-                binding.normative6.setText("3.1 Подтягивание из виса на\n" +
+                binding.normative6.setText(" Подтягивание из виса на\n" +
                         "высокой перекладине\n" +
                         "(количество раз)");
 
 
-                binding.normative7.setText("3.2 Сгибание и разгибание\n" +
+                binding.normative7.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
 
 
-                binding.normative8.setText("3.3 Рывок гири 16 кг\n" +
+                binding.normative8.setText(" Рывок гири 16 кг\n" +
                         "(количество раз)");
 
 
-                binding.normative9.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -2205,11 +2205,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("9");
                 binding.static7.setText("27");
                 binding.static8.setText("20");
-                binding.static9.setText("+6");
+                binding.static10.setText("+6");
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -2219,26 +2219,26 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 60м (с)");
-                binding.normative2.setText("1.2 Бег на 100 м (с)");
+                binding.normative1.setText(" Бег 60м (с)");
+                binding.normative2.setText(" Бег на 100 м (с)");
 
-                binding.normative3.setText("2.1 Бег на 1000 м\n" +
+                binding.normative3.setText(" Бег на 1000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.1 Бег на 2000 м\n" +
+                binding.normative4.setText(" Бег на 2000 м\n" +
                         "(мин, с)");
-                binding.normative5.setText("2.2 Бег на лыжах на\n" +
+                binding.normative5.setText(" Бег на лыжах на\n" +
                         "3 км (мин, с)");
 
-                binding.normative6.setText("2.3 Кросс на 3 км (бег по\n" +
+                binding.normative6.setText(" Кросс на 3 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
 
-                binding.normative7.setText("3.1 Подтягивание из виса на\n" +
+                binding.normative7.setText(" Подтягивание из виса на\n" +
                         "низкой перекладине\n" +
                         "(количество раз)");
 
 
-                binding.normative8.setText("3.2 Сгибание и разгибание\n" +
+                binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
 
@@ -2246,12 +2246,12 @@ public class StatisticActivity extends AppCompatActivity {
 
 
 
-                binding.normative9.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
 
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -2266,11 +2266,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("17:10");
                 binding.static7.setText("19");
                 binding.static8.setText("18");
-                binding.static9.setText("+16");
+                binding.static10.setText("+16");
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -2282,26 +2282,26 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 60м (с)");
-                binding.normative2.setText("1.2 Бег на 100 м (с)");
+                binding.normative1.setText(" Бег 60м (с)");
+                binding.normative2.setText(" Бег на 100 м (с)");
 
-                binding.normative3.setText("2.1 Бег на 1000 м\n" +
+                binding.normative3.setText(" Бег на 1000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.1 Бег на 2000 м\n" +
+                binding.normative4.setText(" Бег на 2000 м\n" +
                         "(мин, с)");
-                binding.normative5.setText("2.2 Бег на лыжах на\n" +
+                binding.normative5.setText(" Бег на лыжах на\n" +
                         "3 км (мин, с)");
 
-                binding.normative6.setText("2.3 Кросс на 3 км (бег по\n" +
+                binding.normative6.setText(" Кросс на 3 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
 
-                binding.normative7.setText("3.1 Подтягивание из виса на\n" +
+                binding.normative7.setText(" Подтягивание из виса на\n" +
                         "низкой перекладине\n" +
                         "(количество раз)");
 
 
-                binding.normative8.setText("3.2 Сгибание и разгибание\n" +
+                binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
 
@@ -2309,12 +2309,12 @@ public class StatisticActivity extends AppCompatActivity {
 
 
 
-                binding.normative9.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
 
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -2329,11 +2329,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("18:10");
                 binding.static7.setText("13");
                 binding.static8.setText("13");
-                binding.static9.setText("+11");
+                binding.static10.setText("+11");
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -2345,26 +2345,26 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 60м (с)");
-                binding.normative2.setText("1.2 Бег на 100 м (с)");
+                binding.normative1.setText(" Бег 60м (с)");
+                binding.normative2.setText(" Бег на 100 м (с)");
 
-                binding.normative3.setText("2.1 Бег на 1000 м\n" +
+                binding.normative3.setText(" Бег на 1000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.1 Бег на 2000 м\n" +
+                binding.normative4.setText(" Бег на 2000 м\n" +
                         "(мин, с)");
-                binding.normative5.setText("2.2 Бег на лыжах на\n" +
+                binding.normative5.setText(" Бег на лыжах на\n" +
                         "3 км (мин, с)");
 
-                binding.normative6.setText("2.3 Кросс на 3 км (бег по\n" +
+                binding.normative6.setText(" Кросс на 3 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
 
-                binding.normative7.setText("3.1 Подтягивание из виса на\n" +
+                binding.normative7.setText(" Подтягивание из виса на\n" +
                         "низкой перекладине\n" +
                         "(количество раз)");
 
 
-                binding.normative8.setText("3.2 Сгибание и разгибание\n" +
+                binding.normative8.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
 
@@ -2372,12 +2372,12 @@ public class StatisticActivity extends AppCompatActivity {
 
 
 
-                binding.normative9.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
 
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -2392,11 +2392,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("19:35");
                 binding.static7.setText("9");
                 binding.static8.setText("9");
-                binding.static9.setText("+8");
+                binding.static10.setText("+8");
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -2406,24 +2406,24 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 60м (с)");
-                binding.normative2.setText("1.2 Бег на 100 м (с)");
+                binding.normative1.setText(" Бег 60м (с)");
+                binding.normative2.setText(" Бег на 100 м (с)");
 
-                binding.normative3.setText("2.1 Бег на 3000 м\n" +
+                binding.normative3.setText(" Бег на 3000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                binding.normative4.setText(" Бег на лыжах на\n" +
                         "5 км (мин, с)");
 
-                binding.normative5.setText("2.3 Кросс на 5 км (бег по\n" +
+                binding.normative5.setText(" Кросс на 5 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
 
-                binding.normative6.setText("3.1 Подтягивание из виса на\n" +
+                binding.normative6.setText(" Подтягивание из виса на\n" +
                         "высокой перекладине\n" +
                         "(количество раз)");
 
 
-                binding.normative7.setText("3.2 Сгибание и разгибание\n" +
+                binding.normative7.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
 
@@ -2434,11 +2434,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText("Рывок гири\n" +
                         "16 кг (количество раз)");
 
-                binding.normative9.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -2453,12 +2453,12 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("14");
                 binding.static7.setText("40");
                 binding.static8.setText("41");
-                binding.static9.setText("+12");
+                binding.static10.setText("+12");
 
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -2468,24 +2468,24 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 60м (с)");
-                binding.normative2.setText("1.2 Бег на 100 м (с)");
+                binding.normative1.setText(" Бег 60м (с)");
+                binding.normative2.setText(" Бег на 100 м (с)");
 
-                binding.normative3.setText("2.1 Бег на 3000 м\n" +
+                binding.normative3.setText(" Бег на 3000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                binding.normative4.setText(" Бег на лыжах на\n" +
                         "5 км (мин, с)");
 
-                binding.normative5.setText("2.3 Кросс на 5 км (бег по\n" +
+                binding.normative5.setText(" Кросс на 5 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
 
-                binding.normative6.setText("3.1 Подтягивание из виса на\n" +
+                binding.normative6.setText(" Подтягивание из виса на\n" +
                         "высокой перекладине\n" +
                         "(количество раз)");
 
 
-                binding.normative7.setText("3.2 Сгибание и разгибание\n" +
+                binding.normative7.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
 
@@ -2496,11 +2496,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText("Рывок гири\n" +
                         "16 кг (количество раз)");
 
-                binding.normative9.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -2515,12 +2515,12 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("10");
                 binding.static7.setText("25");
                 binding.static8.setText("24");
-                binding.static9.setText("+7");
+                binding.static10.setText("+7");
 
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -2530,24 +2530,24 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 60м (с)");
-                binding.normative2.setText("1.2 Бег на 100 м (с)");
+                binding.normative1.setText(" Бег 60м (с)");
+                binding.normative2.setText(" Бег на 100 м (с)");
 
-                binding.normative3.setText("2.1 Бег на 3000 м\n" +
+                binding.normative3.setText(" Бег на 3000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                binding.normative4.setText(" Бег на лыжах на\n" +
                         "5 км (мин, с)");
 
-                binding.normative5.setText("2.3 Кросс на 5 км (бег по\n" +
+                binding.normative5.setText(" Кросс на 5 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
 
-                binding.normative6.setText("3.1 Подтягивание из виса на\n" +
+                binding.normative6.setText(" Подтягивание из виса на\n" +
                         "высокой перекладине\n" +
                         "(количество раз)");
 
 
-                binding.normative7.setText("3.2 Сгибание и разгибание\n" +
+                binding.normative7.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
 
@@ -2558,11 +2558,11 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative8.setText("Рывок гири\n" +
                         "16 кг (количество раз)");
 
-                binding.normative9.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -2577,12 +2577,12 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("6");
                 binding.static7.setText("21");
                 binding.static8.setText("18");
-                binding.static9.setText("+5");
+                binding.static10.setText("+5");
 
 
 
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -2592,31 +2592,31 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 60м (с)");
-                binding.normative2.setText("1.2 Бег на 100 м (с)");
-                binding.normative3.setText("2.1 Бег на 1000 м\n" +
+                binding.normative1.setText(" Бег 60м (с)");
+                binding.normative2.setText(" Бег на 100 м (с)");
+                binding.normative3.setText(" Бег на 1000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.1 Бег на 2000 м\n" +
+                binding.normative4.setText(" Бег на 2000 м\n" +
                         "(мин, с)");
-                binding.normative5.setText("2.2 Бег на лыжах на\n" +
+                binding.normative5.setText(" Бег на лыжах на\n" +
                         "3 км (мин, с)");
 
-                binding.normative6.setText("2.3 Кросс на 3 км (бег по\n" +
+                binding.normative6.setText(" Кросс на 3 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
                 binding.normative7.setVisibility(View.GONE);
-                binding.normative8.setText("3.1 Подтягивание из виса\n" +
+                binding.normative8.setText(" Подтягивание из виса\n" +
                         "лежа на низкой\n" +
                         "перекладине 90 см\n" +
                         "(количество раз)\n");
 
 
-                binding.normative9.setText("3.2 Сгибание и разгибание\n" +
+                binding.normative10.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
 
 
-                binding.normative10.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
@@ -2636,7 +2636,7 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("17:40");
                 binding.static7.setVisibility(View.GONE);
                 binding.static8.setText("18");
-                binding.static9.setText("17");
+                binding.static10.setText("17");
                 binding.static10.setText("+14");
 
 
@@ -2649,36 +2649,36 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 60м (с)");
-                binding.normative2.setText("1.2 Бег на 100 м (с)");
-                binding.normative3.setText("2.1 Бег на 1000 м\n" +
+                binding.normative1.setText(" Бег 60м (с)");
+                binding.normative2.setText(" Бег на 100 м (с)");
+                binding.normative3.setText(" Бег на 1000 м\n" +
                         "(мин, с)");
-                binding.normative3.setText("2.1 Бег на 2000 м\n" +
+                binding.normative3.setText(" Бег на 2000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                binding.normative4.setText(" Бег на лыжах на\n" +
                         "3 км (мин, с)");
 
-                binding.normative5.setText("2.3 Кросс на 3 км (бег по\n" +
+                binding.normative5.setText(" Кросс на 3 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
 
-                binding.normative6.setText("3.1 Подтягивание из виса\n" +
+                binding.normative6.setText(" Подтягивание из виса\n" +
                         "лежа на низкой\n" +
                         "перекладине 90 см\n" +
                         "(количество раз)\n");
 
 
-                binding.normative7.setText("3.2 Сгибание и разгибание\n" +
+                binding.normative7.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
 
 
-                binding.normative9.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
 
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -2693,9 +2693,9 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("19:50");
                 binding.static7.setText("12");
                 binding.static8.setText("12");
-                binding.static9.setText("+9");
+                binding.static10.setText("+9");
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
@@ -2705,36 +2705,36 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("1.1 Бег 60м (с)");
-                binding.normative2.setText("1.2 Бег на 100 м (с)");
-                binding.normative3.setText("2.1 Бег на 1000 м\n" +
+                binding.normative1.setText(" Бег 60м (с)");
+                binding.normative2.setText(" Бег на 100 м (с)");
+                binding.normative3.setText(" Бег на 1000 м\n" +
                         "(мин, с)");
-                binding.normative3.setText("2.1 Бег на 2000 м\n" +
+                binding.normative3.setText(" Бег на 2000 м\n" +
                         "(мин, с)");
-                binding.normative4.setText("2.2 Бег на лыжах на\n" +
+                binding.normative4.setText(" Бег на лыжах на\n" +
                         "3 км (мин, с)");
 
-                binding.normative5.setText("2.3 Кросс на 3 км (бег по\n" +
+                binding.normative5.setText(" Кросс на 3 км (бег по\n" +
                         "пересеченной местности)\n" +
                         "(мин, с)");
 
-                binding.normative6.setText("3.1 Подтягивание из виса\n" +
+                binding.normative6.setText(" Подтягивание из виса\n" +
                         "лежа на низкой\n" +
                         "перекладине 90 см\n" +
                         "(количество раз)\n");
 
 
-                binding.normative7.setText("3.2 Сгибание и разгибание\n" +
+                binding.normative7.setText(" Сгибание и разгибание\n" +
                         "рук в упоре лежа на полу\n" +
                         "(количество раз)");
 
 
-                binding.normative9.setText("4 Наклон вперед из\n" +
+                binding.normative10.setText("Наклон вперед из\n" +
                         "положения стоя на\n" +
                         "гимнастической скамье\n" +
                         "(от уровня скамьи – см)");
 
-                binding.normative10.setVisibility(View.GONE);
+                
                 binding.normative11.setVisibility(View.GONE);
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
@@ -2749,9 +2749,9 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.static6.setText("22:30");
                 binding.static7.setText("8");
                 binding.static8.setText("8");
-                binding.static9.setText("+7");
+                binding.static10.setText("+7");
 
-                binding.static10.setVisibility(View.GONE);
+                
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
