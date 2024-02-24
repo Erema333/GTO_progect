@@ -8,9 +8,15 @@ import android.widget.RadioButton;
 
 import com.example.gto_progect.databinding.ActivityMainBinding;
 
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.ProtocolException;
+import java.net.URL;
+
 public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;
-
+boolean blan = false;
     private int old = 0;
     private int pol = 0;
     private int medal = 0;
@@ -33,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         binding.old2529.setOnClickListener(view1 -> {old =25;});
         binding.man.setOnClickListener(view1 -> {pol =1;});
         binding.women.setOnClickListener(view1 -> {pol =2;});
+
 binding.gotovo.setOnClickListener(view -> {
 
 if(pol > 0&& old>0&&medal>0){
@@ -121,6 +128,7 @@ public String getInfo(){
     if(pol == 2 && old ==30 && medal == 3)a = "W,30-34,C";
 
     return a;
+
 }
 
     @Override
