@@ -440,6 +440,15 @@
                     android:textColor="@color/root_color" />
 
             </LinearLayout>
+<TextView
+    android:id="@+id/kolvo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@drawable/button_ready"
+    android:textAlignment="center"
+    android:textSize="17sp">
+
+</TextView>
 
             <Button
                 android:id="@+id/back"

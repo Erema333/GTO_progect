@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/dark_grey"
+
+    tools:context=".HelpActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginVertical="10dp"
+        android:textSize="20sp"
+        android:textColor="@drawable/button_ready"
+        android:text="Добро пожаловать на страницу помощи">
+
+    </TextView>
+    <TextView
+        android:layout_marginHorizontal="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginVertical="10dp"
+        android:textSize="20sp"
+        android:textColor="@drawable/button_ready"
+        android:text="Здесь ты узнаешь как обращаться с представленными данными в приложении.">
+
+    </TextView>
+    <TextView
+        android:layout_marginHorizontal="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textColor="@drawable/button_ready"
+        android:text="Основные нормативы сдачи ГТО проверяют твои спортивные способности. А именно:">
+    </TextView>
+    <TextView
+        android:layout_marginHorizontal="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textColor="@drawable/button_ready"
+        android:text="1.скорость">
+    </TextView>
+    <TextView
+        android:layout_marginHorizontal="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textColor="@drawable/button_ready"
+        android:text="2.выносливость">
+    </TextView>
+    <TextView
+        android:layout_marginHorizontal="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textColor="@drawable/button_ready"
+        android:text="3.сила">
+    </TextView>
+    <TextView
+        android:layout_marginHorizontal="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textColor="@drawable/button_ready"
+        android:text="4.гибкость">
+    </TextView>
+    <TextView
+        android:layout_marginHorizontal="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textColor="@drawable/button_ready"
+        android:text="Чтобы сдать ГТО, тебе, нужно сдать по 1 основному нормативу на каждую способность. ">
+    </TextView>
+    <TextView
+        android:layout_marginHorizontal="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textColor="@drawable/button_ready"
+        android:text="ты можешь выбрать любую из представленных.">
+    </TextView>
+    <TextView
+        android:layout_marginHorizontal="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textColor="@drawable/button_ready"
+        android:text="Также для сдачи ГТО тебе нужно выполнить дополнительные испытания (Обычно это 2 норматива на золото и по 1 нормативу на серебро и бронзу).">
+    </TextView>
+    <TextView
+        android:layout_marginHorizontal="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textColor="@drawable/button_ready"
+        android:text="Необходимое количество нормативов для сдачи указано в таблице.">
+    </TextView>
+    <TextView
+        android:layout_marginHorizontal="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textColor="@drawable/button_ready"
+        android:text="P.S. Чтобы попаcть на таблицу с дополнительными нормативами, пролестай на основной таблице в самый низ. Тебе нужна кнопка справо. ">
+    </TextView>
+    <TextView
+        android:layout_marginHorizontal="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@drawable/button_ready"
+        android:text="На это всё">
+    </TextView>
+        <Button
+            android:layout_marginVertical="15dp"
+            android:textColor="@drawable/button_ready"
+            android:id="@+id/back"
+            android:text="НАЗАД"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_ready">
+
+        </Button>
+
+    </LinearLayout>
+</ScrollView>

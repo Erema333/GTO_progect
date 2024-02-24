@@ -37,11 +37,11 @@ binding.back.setOnClickListener(view -> {
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Метание теннисного мяча\n" +
+                binding.normative1.setText("Метание теннисного мяча\n" +
                         "в цель, дистанция 5 м\n" +
                         "(количество попаданий) ");
-                binding.normative2.setText("5. Челночный бег 3x10 м (с)");
-                binding.normative3.setText("6. Плавание (м) ");
+                binding.normative2.setText("Челночный бег 3x10 м (с)");
+                binding.normative3.setText("Плавание (м) ");
                 binding.normative4.setVisibility(View.GONE);
                 binding.normative5.setVisibility(View.GONE);
                 binding.normative6.setVisibility(View.GONE);
@@ -67,17 +67,18 @@ binding.back.setOnClickListener(view -> {
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
                 binding.static13.setVisibility(View.GONE);
+                binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "M,6-7,S":
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Метание теннисного мяча\n" +
+                binding.normative1.setText("Метание теннисного мяча\n" +
                         "в цель, дистанция 5 м\n" +
                         "(количество попаданий) ");
-                binding.normative2.setText("5. Челночный бег 3x10 м (с)");
-                binding.normative3.setText("6. Плавание (м) ");
+                binding.normative2.setText("Челночный бег 3x10 м (с)");
+                binding.normative3.setText("Плавание (м) ");
                 binding.normative4.setVisibility(View.GONE);
                 binding.normative5.setVisibility(View.GONE);
                 binding.normative6.setVisibility(View.GONE);
@@ -102,18 +103,19 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "M,6-7,C":
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Метание теннисного мяча\n" +
+                binding.normative1.setText("Метание теннисного мяча\n" +
                         "в цель, дистанция 5 м\n" +
                         "(количество попаданий) ");
-                binding.normative2.setText("5. Челночный бег 3x10 м (с)");
-                binding.normative3.setText("6. Плавание (м) ");
+                binding.normative2.setText("Челночный бег 3x10 м (с)");
+                binding.normative3.setText("Плавание (м) ");
                 binding.normative4.setVisibility(View.GONE);
                 binding.normative5.setVisibility(View.GONE);
                 binding.normative6.setVisibility(View.GONE);
@@ -138,18 +140,19 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "W,6-7,G":
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Метание теннисного мяча\n" +
+                binding.normative1.setText("Метание теннисного мяча\n" +
                         "в цель, дистанция 5 м\n" +
                         "(количество попаданий) ");
-                binding.normative2.setText("5. Челночный бег 3x10 м (с)");
-                binding.normative3.setText("6. Плавание (м) ");
+                binding.normative2.setText("Челночный бег 3x10 м (с)");
+                binding.normative3.setText("Плавание (м) ");
                 binding.normative4.setVisibility(View.GONE);
                 binding.normative5.setVisibility(View.GONE);
                 binding.normative6.setVisibility(View.GONE);
@@ -174,18 +177,19 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "W,6-7,S":
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Метание теннисного мяча\n" +
+                binding.normative1.setText("Метание теннисного мяча\n" +
                         "в цель, дистанция 5 м\n" +
                         "(количество попаданий) ");
-                binding.normative2.setText("5. Челночный бег 3x10 м (с)");
-                binding.normative3.setText("6. Плавание (м) ");
+                binding.normative2.setText("Челночный бег 3x10 м (с)");
+                binding.normative3.setText("Плавание (м) ");
                 binding.normative4.setVisibility(View.GONE);
                 binding.normative5.setVisibility(View.GONE);
                 binding.normative6.setVisibility(View.GONE);
@@ -210,18 +214,19 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "W,6-7,C":
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Метание теннисного мяча\n" +
+                binding.normative1.setText("Метание теннисного мяча\n" +
                         "в цель, дистанция 5 м\n" +
                         "(количество попаданий) ");
-                binding.normative2.setText("5. Челночный бег 3x10 м (с)");
-                binding.normative3.setText("6. Плавание (м) ");
+                binding.normative2.setText("Челночный бег 3x10 м (с)");
+                binding.normative3.setText("Плавание (м) ");
                 binding.normative4.setVisibility(View.GONE);
                 binding.normative5.setVisibility(View.GONE);
                 binding.normative6.setVisibility(View.GONE);
@@ -246,25 +251,26 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "M,8-9,G":
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину\n" +
+                binding.normative1.setText("Прыжок в длину\n" +
                         "с места толчком\n" +
                         "двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
-                binding.normative3.setText("6. Метание теннисного мяча\n" +
+                binding.normative3.setText("Метание теннисного мяча\n" +
                         "в цель, дистанция 6 м\n" +
                         "(количество попаданий) ");
-                binding.normative4.setText("6. Челночный бег\n" +
+                binding.normative4.setText("Челночный бег\n" +
                         "3x10 м (с)");
-                binding.normative5.setText("7. Плавание\n" +
+                binding.normative5.setText("Плавание\n" +
                         "на 25 м (мин, с) ");
                 binding.normative6.setVisibility(View.GONE);
                 binding.normative7.setVisibility(View.GONE);
@@ -288,25 +294,26 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 2");
                 break;
 
             case "M,8-9,S":
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину\n" +
+                binding.normative1.setText("Прыжок в длину\n" +
                         "с места толчком\n" +
                         "двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
-                binding.normative3.setText("6. Метание теннисного мяча\n" +
+                binding.normative3.setText("Метание теннисного мяча\n" +
                         "в цель, дистанция 6 м\n" +
                         "(количество попаданий) ");
-                binding.normative4.setText("6. Челночный бег\n" +
+                binding.normative4.setText("Челночный бег\n" +
                         "3x10 м (с)");
-                binding.normative5.setText("7. Плавание\n" +
+                binding.normative5.setText("Плавание\n" +
                         "на 25 м (мин, с) ");
                 binding.normative6.setVisibility(View.GONE);
                 binding.normative7.setVisibility(View.GONE);
@@ -330,24 +337,25 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
             case "M,8-9,C":
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину\n" +
+                binding.normative1.setText("Прыжок в длину\n" +
                         "с места толчком\n" +
                         "двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
-                binding.normative3.setText("6. Метание теннисного мяча\n" +
+                binding.normative3.setText("Метание теннисного мяча\n" +
                         "в цель, дистанция 6 м\n" +
                         "(количество попаданий) ");
-                binding.normative4.setText("6. Челночный бег\n" +
+                binding.normative4.setText("Челночный бег\n" +
                         "3x10 м (с)");
-                binding.normative5.setText("7. Плавание\n" +
+                binding.normative5.setText("Плавание\n" +
                         "на 25 м (мин, с) ");
                 binding.normative6.setVisibility(View.GONE);
                 binding.normative7.setVisibility(View.GONE);
@@ -371,25 +379,26 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "W,8-9,G":
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину\n" +
+                binding.normative1.setText("Прыжок в длину\n" +
                         "с места толчком\n" +
                         "двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
-                binding.normative3.setText("6. Метание теннисного мяча\n" +
+                binding.normative3.setText("Метание теннисного мяча\n" +
                         "в цель, дистанция 6 м\n" +
                         "(количество попаданий) ");
-                binding.normative4.setText("6. Челночный бег\n" +
+                binding.normative4.setText("Челночный бег\n" +
                         "3x10 м (с)");
-                binding.normative5.setText("7. Плавание\n" +
+                binding.normative5.setText("Плавание\n" +
                         "на 25 м (мин, с) ");
                 binding.normative6.setVisibility(View.GONE);
                 binding.normative7.setVisibility(View.GONE);
@@ -413,25 +422,26 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 2");
                 break;
 
             case "W,8-9,S":
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину\n" +
+                binding.normative1.setText("Прыжок в длину\n" +
                         "с места толчком\n" +
                         "двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
-                binding.normative3.setText("6. Метание теннисного мяча\n" +
+                binding.normative3.setText("Метание теннисного мяча\n" +
                         "в цель, дистанция 6 м\n" +
                         "(количество попаданий) ");
-                binding.normative4.setText("6. Челночный бег\n" +
+                binding.normative4.setText("Челночный бег\n" +
                         "3x10 м (с)");
-                binding.normative5.setText("7. Плавание\n" +
+                binding.normative5.setText("Плавание\n" +
                         "на 25 м (мин, с) ");
                 binding.normative6.setVisibility(View.GONE);
                 binding.normative7.setVisibility(View.GONE);
@@ -455,7 +465,8 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
 
@@ -463,18 +474,18 @@ binding.back.setOnClickListener(view -> {
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину\n" +
+                binding.normative1.setText("Прыжок в длину\n" +
                         "с места толчком\n" +
                         "двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
-                binding.normative3.setText("6. Метание теннисного мяча\n" +
+                binding.normative3.setText("Метание теннисного мяча\n" +
                         "в цель, дистанция 6 м\n" +
                         "(количество попаданий) ");
-                binding.normative4.setText("6. Челночный бег\n" +
+                binding.normative4.setText("Челночный бег\n" +
                         "3x10 м (с)");
-                binding.normative5.setText("7. Плавание\n" +
+                binding.normative5.setText("Плавание\n" +
                         "на 25 м (мин, с) ");
                 binding.normative6.setVisibility(View.GONE);
                 binding.normative7.setVisibility(View.GONE);
@@ -498,25 +509,26 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "M,10-11,G":
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Челночный бег\n" +
+                binding.normative1.setText("Челночный бег\n" +
                         "3x10 м (с) ");
-                binding.normative2.setText("6. Прыжок в длину\n" +
+                binding.normative2.setText("Прыжок в длину\n" +
                         "с места толчком двумя\n" +
                         "ногами (см)");
-                binding.normative3.setText("6. Поднимание туловища\n" +
+                binding.normative3.setText("Поднимание туловища\n" +
                         "из положения лежа\n" +
                         "на спине (количество раз\n" +
                         "за 1 мин)\n ");
-                binding.normative4.setText("7. Метание мяча весом\n" +
+                binding.normative4.setText("Метание мяча весом\n" +
                         "150 г (м)");
-                binding.normative5.setText("7. Плавание на\n" +
+                binding.normative5.setText("Плавание на\n" +
                         "навыки\n" +
                         "50 м (мин, с) ");
                 binding.normative6.setVisibility(View.GONE);
@@ -541,25 +553,26 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 2");
                 break;
 
             case "M,10-11,S":
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Челночный бег\n" +
+                binding.normative1.setText("Челночный бег\n" +
                         "3x10 м (с) ");
-                binding.normative2.setText("6. Прыжок в длину\n" +
+                binding.normative2.setText("Прыжок в длину\n" +
                         "с места толчком двумя\n" +
                         "ногами (см)");
-                binding.normative3.setText("6. Поднимание туловища\n" +
+                binding.normative3.setText("Поднимание туловища\n" +
                         "из положения лежа\n" +
                         "на спине (количество раз\n" +
                         "за 1 мин)\n ");
-                binding.normative4.setText("7. Метание мяча весом\n" +
+                binding.normative4.setText("Метание мяча весом\n" +
                         "150 г (м)");
-                binding.normative5.setText("7. Плавание на\n" +
+                binding.normative5.setText("Плавание на\n" +
                         "навыки\n" +
                         "50 м (мин, с) ");
                 binding.normative6.setVisibility(View.GONE);
@@ -584,25 +597,26 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "M,10-11,C":
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Челночный бег\n" +
+                binding.normative1.setText("Челночный бег\n" +
                         "3x10 м (с) ");
-                binding.normative2.setText("6. Прыжок в длину\n" +
+                binding.normative2.setText("Прыжок в длину\n" +
                         "с места толчком двумя\n" +
                         "ногами (см)");
-                binding.normative3.setText("6. Поднимание туловища\n" +
+                binding.normative3.setText("Поднимание туловища\n" +
                         "из положения лежа\n" +
                         "на спине (количество раз\n" +
                         "за 1 мин)\n ");
-                binding.normative4.setText("7. Метание мяча весом\n" +
+                binding.normative4.setText("Метание мяча весом\n" +
                         "150 г (м)");
-                binding.normative5.setText("7. Плавание на\n" +
+                binding.normative5.setText("Плавание на\n" +
                         "50 м (мин, с) ");
                 binding.normative6.setVisibility(View.GONE);
                 binding.normative7.setVisibility(View.GONE);
@@ -626,25 +640,26 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "W,10-11,G":
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Челночный бег\n" +
+                binding.normative1.setText("Челночный бег\n" +
                         "3x10 м (с) ");
-                binding.normative2.setText("6. Прыжок в длину\n" +
+                binding.normative2.setText("Прыжок в длину\n" +
                         "с места толчком двумя\n" +
                         "ногами (см)");
-                binding.normative3.setText("6. Поднимание туловища\n" +
+                binding.normative3.setText("Поднимание туловища\n" +
                         "из положения лежа\n" +
                         "на спине (количество раз\n" +
                         "за 1 мин)\n ");
-                binding.normative4.setText("7. Метание мяча весом\n" +
+                binding.normative4.setText("Метание мяча весом\n" +
                         "150 г (м)");
-                binding.normative5.setText("7. Плавание на\n" +
+                binding.normative5.setText("Плавание на\n" +
                         "навыки\n" +
                         "50 м (мин, с) ");
                 binding.normative6.setVisibility(View.GONE);
@@ -669,25 +684,26 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 2");
                 break;
 
             case "W,10-11,S":
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Челночный бег\n" +
+                binding.normative1.setText("Челночный бег\n" +
                         "3x10 м (с) ");
-                binding.normative2.setText("6. Прыжок в длину\n" +
+                binding.normative2.setText("Прыжок в длину\n" +
                         "с места толчком двумя\n" +
                         "ногами (см)");
-                binding.normative3.setText("6. Поднимание туловища\n" +
+                binding.normative3.setText("Поднимание туловища\n" +
                         "из положения лежа\n" +
                         "на спине (количество раз\n" +
                         "за 1 мин)\n ");
-                binding.normative4.setText("7. Метание мяча весом\n" +
+                binding.normative4.setText("Метание мяча весом\n" +
                         "150 г (м)");
-                binding.normative5.setText("7. Плавание на\n" +
+                binding.normative5.setText("Плавание на\n" +
                         "навыки\n" +
                         "50 м (мин, с) ");
                 binding.normative6.setVisibility(View.GONE);
@@ -712,25 +728,26 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "W,10-11,C":
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Челночный бег\n" +
+                binding.normative1.setText("Челночный бег\n" +
                         "3x10 м (с) ");
-                binding.normative2.setText("6. Прыжок в длину\n" +
+                binding.normative2.setText("Прыжок в длину\n" +
                         "с места толчком двумя\n" +
                         "ногами (см)");
-                binding.normative3.setText("6. Поднимание туловища\n" +
+                binding.normative3.setText("Поднимание туловища\n" +
                         "из положения лежа\n" +
                         "на спине (количество раз\n" +
                         "за 1 мин)\n ");
-                binding.normative4.setText("7. Метание мяча весом\n" +
+                binding.normative4.setText("Метание мяча весом\n" +
                         "150 г (м)");
-                binding.normative5.setText("7. Плавание на\n" +
+                binding.normative5.setText("Плавание на\n" +
                         "навыки\n" +
                         "50 м (мин, с) ");
                 binding.normative6.setVisibility(View.GONE);
@@ -755,37 +772,38 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "M,12-13,G":
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Челночный бег\n" +
+                binding.normative1.setText("Челночный бег\n" +
                         "3x10 м (с) ");
-                binding.normative2.setText("6. Прыжок в длину\n" +
+                binding.normative2.setText("Прыжок в длину\n" +
                         "с места толчком двумя\n" +
                         "ногами (см)");
-                binding.normative3.setText("6. Поднимание туловища\n" +
+                binding.normative3.setText("Поднимание туловища\n" +
                         "из положения лежа\n" +
                         "на спине (количество раз\n" +
                         "за 1 мин)\n ");
-                binding.normative4.setText("7. Метание мяча весом\n" +
+                binding.normative4.setText("Метание мяча весом\n" +
                         "150 г (м)");
-                binding.normative5.setText("7. Плавание на\n" +
+                binding.normative5.setText("Плавание на\n" +
                         "навыки\n" +
                         "50 м (мин, с) ");
-                binding.normative6.setText("7. Стрельба из положения сидя с\n" +
+                binding.normative6.setText("Стрельба из положения сидя с\n" +
                         "опорой локтей о стол и с упора\n" +
                         "для винтовки, дистанция 10 м\n" +
                         "из пневматической винтовки с\n" +
                         "открытым прицелом (очки) ");
-                binding.normative7.setText("7. Стрельба из пневматической\n" +
+                binding.normative7.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо \n" +
                         "«электронного оружия» (очки) ");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 5 км\n" +
                         "(количество навыков) ");
@@ -808,37 +826,38 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 2");
                 break;
 
             case "M,12-13,S":
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Челночный бег\n" +
+                binding.normative1.setText("Челночный бег\n" +
                         "3x10 м (с) ");
-                binding.normative2.setText("6. Прыжок в длину\n" +
+                binding.normative2.setText("Прыжок в длину\n" +
                         "с места толчком двумя\n" +
                         "ногами (см)");
-                binding.normative3.setText("6. Поднимание туловища\n" +
+                binding.normative3.setText("Поднимание туловища\n" +
                         "из положения лежа\n" +
                         "на спине (количество раз\n" +
                         "за 1 мин)\n ");
-                binding.normative4.setText("7. Метание мяча весом\n" +
+                binding.normative4.setText("Метание мяча весом\n" +
                         "150 г (м)");
-                binding.normative5.setText("7. Плавание на\n" +
+                binding.normative5.setText("Плавание на\n" +
                         "навыки\n" +
                         "50 м (мин, с) ");
-                binding.normative6.setText("7. Стрельба из положения сидя с\n" +
+                binding.normative6.setText("Стрельба из положения сидя с\n" +
                         "опорой локтей о стол и с упора\n" +
                         "для винтовки, дистанция 10 м\n" +
                         "из пневматической винтовки с\n" +
                         "открытым прицелом (очки) ");
-                binding.normative7.setText("7. Стрельба из пневматической\n" +
+                binding.normative7.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо \n" +
                         "«электронного оружия» (очки) ");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 5 км\n" +
                         "(количество навыков) ");
@@ -861,37 +880,38 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "M,12-13,C":
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Челночный бег\n" +
+                binding.normative1.setText("Челночный бег\n" +
                         "3x10 м (с) ");
-                binding.normative2.setText("6. Прыжок в длину\n" +
+                binding.normative2.setText("Прыжок в длину\n" +
                         "с места толчком двумя\n" +
                         "ногами (см)");
-                binding.normative3.setText("6. Поднимание туловища\n" +
+                binding.normative3.setText("Поднимание туловища\n" +
                         "из положения лежа\n" +
                         "на спине (количество раз\n" +
                         "за 1 мин)\n ");
-                binding.normative4.setText("7. Метание мяча весом\n" +
+                binding.normative4.setText("Метание мяча весом\n" +
                         "150 г (м)");
-                binding.normative5.setText("7. Плавание на\n" +
+                binding.normative5.setText("Плавание на\n" +
                         "навыки\n" +
                         "50 м (мин, с) ");
-                binding.normative6.setText("7. Стрельба из положения сидя с\n" +
+                binding.normative6.setText("Стрельба из положения сидя с\n" +
                         "опорой локтей о стол и с упора\n" +
                         "для винтовки, дистанция 10 м\n" +
                         "из пневматической винтовки с\n" +
                         "открытым прицелом (очки) ");
-                binding.normative7.setText("7. Стрельба из пневматической\n" +
+                binding.normative7.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо \n" +
                         "«электронного оружия» (очки) ");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 5 км\n" +
                         "(количество навыков) ");
@@ -914,37 +934,38 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "W,12-13,G":
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Челночный бег\n" +
+                binding.normative1.setText("Челночный бег\n" +
                         "3x10 м (с) ");
-                binding.normative2.setText("6. Прыжок в длину\n" +
+                binding.normative2.setText("Прыжок в длину\n" +
                         "с места толчком двумя\n" +
                         "ногами (см)");
-                binding.normative3.setText("6. Поднимание туловища\n" +
+                binding.normative3.setText("Поднимание туловища\n" +
                         "из положения лежа\n" +
                         "на спине (количество раз\n" +
                         "за 1 мин)\n ");
-                binding.normative4.setText("7. Метание мяча весом\n" +
+                binding.normative4.setText("Метание мяча весом\n" +
                         "150 г (м)");
-                binding.normative5.setText("7. Плавание на\n" +
+                binding.normative5.setText("Плавание на\n" +
                         "навыки\n" +
                         "50 м (мин, с) ");
-                binding.normative6.setText("7. Стрельба из положения сидя с\n" +
+                binding.normative6.setText("Стрельба из положения сидя с\n" +
                         "опорой локтей о стол и с упора\n" +
                         "для винтовки, дистанция 10 м\n" +
                         "из пневматической винтовки с\n" +
                         "открытым прицелом (очки) ");
-                binding.normative7.setText("7. Стрельба из пневматической\n" +
+                binding.normative7.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 5 км\n" +
                         "(количество навыков) ");
@@ -967,7 +988,8 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 2");
                 break;
 
 
@@ -975,30 +997,30 @@ binding.back.setOnClickListener(view -> {
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Челночный бег\n" +
+                binding.normative1.setText("Челночный бег\n" +
                         "3x10 м (с) ");
-                binding.normative2.setText("6. Прыжок в длину\n" +
+                binding.normative2.setText("Прыжок в длину\n" +
                         "с места толчком двумя\n" +
                         "ногами (см)");
-                binding.normative3.setText("6. Поднимание туловища\n" +
+                binding.normative3.setText("Поднимание туловища\n" +
                         "из положения лежа\n" +
                         "на спине (количество раз\n" +
                         "за 1 мин)\n ");
-                binding.normative4.setText("7. Метание мяча весом\n" +
+                binding.normative4.setText("Метание мяча весом\n" +
                         "150 г (м)");
-                binding.normative5.setText("7. Плавание на\n" +
+                binding.normative5.setText("Плавание на\n" +
                         "навыки\n" +
                         "50 м (мин, с) ");
-                binding.normative6.setText("7. Стрельба из положения сидя с\n" +
+                binding.normative6.setText("Стрельба из положения сидя с\n" +
                         "опорой локтей о стол и с упора\n" +
                         "для винтовки, дистанция 10 м\n" +
                         "из пневматической винтовки с\n" +
                         "открытым прицелом (очки) ");
-                binding.normative7.setText("7. Стрельба из пневматической\n" +
+                binding.normative7.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо \n" +
                         "«электронного оружия» (очки) ");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 5 км\n" +
                         "(количество навыков) ");
@@ -1021,35 +1043,36 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "W,12-13,C":
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Челночный бег\n" +
+                binding.normative1.setText("Челночный бег\n" +
                         "3x10 м (с) ");
-                binding.normative2.setText("6. Прыжок в длину\n" +
+                binding.normative2.setText("Прыжок в длину\n" +
                         "с места толчком двумя\n" +
                         "ногами (см)");
-                binding.normative3.setText("6. Поднимание туловища\n" +
+                binding.normative3.setText("Поднимание туловища\n" +
                         "из положения лежа\n" +
                         "на спине (количество раз\n" +
                         "за 1 мин)\n ");
-                binding.normative4.setText("7. Метание мяча весом\n" +
+                binding.normative4.setText("Метание мяча весом\n" +
                         "150 г (м)");
-                binding.normative5.setText("7. Плавание на 50 м (мин, с) ");
-                binding.normative6.setText("7. Стрельба из положения сидя с\n" +
+                binding.normative5.setText("Плавание на 50 м (мин, с) ");
+                binding.normative6.setText("Стрельба из положения сидя с\n" +
                         "опорой локтей о стол и с упора\n" +
                         "для винтовки, дистанция 10 м\n" +
                         "из пневматической винтовки с\n" +
                         "открытым прицелом (очки) ");
-                binding.normative7.setText("7. Стрельба из пневматической\n" +
+                binding.normative7.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо \n" +
                         "«электронного оружия» (очки) ");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 5 км\n" +
                         "(количество навыков) ");
@@ -1072,37 +1095,38 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "M,14-15,G":
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Челночный бег\n" +
+                binding.normative1.setText("Челночный бег\n" +
                         "3x10 м (с) ");
-                binding.normative2.setText("6. Прыжок в длину\n" +
+                binding.normative2.setText("Прыжок в длину\n" +
                         "с места толчком двумя\n" +
                         "ногами (см)");
-                binding.normative3.setText("6. Поднимание туловища\n" +
+                binding.normative3.setText("Поднимание туловища\n" +
                         "из положения лежа\n" +
                         "на спине (количество раз\n" +
                         "за 1 мин)\n ");
-                binding.normative4.setText("7. Метание мяча весом\n" +
+                binding.normative4.setText("Метание мяча весом\n" +
                         "150 г (м)");
-                binding.normative5.setText("7. Плавание на 50 м (мин, с) ");
-                binding.normative6.setText("7. Стрельба из положения сидя с\n" +
+                binding.normative5.setText("Плавание на 50 м (мин, с) ");
+                binding.normative6.setText("Стрельба из положения сидя с\n" +
                         "опорой локтей о стол и с упора\n" +
                         "для винтовки, дистанция 10 м\n" +
                         "из пневматической винтовки с\n" +
                         "открытым прицелом (очки) ");
-                binding.normative7.setText("7. Стрельба из пневматической\n" +
+                binding.normative7.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо \n" +
                         "«электронного оружия» (очки) ");
-                binding.normative8.setText("7. Самозащита без оружия\n" +
+                binding.normative8.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative9.setText("7. Туристский поход с проверкой\n" +
+                binding.normative9.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 5 км\n" +
                         "(количество навыков) ");
@@ -1125,37 +1149,38 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 2");
                 break;
 
             case "M,14-15,S":
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Челночный бег\n" +
+                binding.normative1.setText("Челночный бег\n" +
                         "3x10 м (с) ");
-                binding.normative2.setText("6. Прыжок в длину\n" +
+                binding.normative2.setText("Прыжок в длину\n" +
                         "с места толчком двумя\n" +
                         "ногами (см)");
-                binding.normative3.setText("6. Поднимание туловища\n" +
+                binding.normative3.setText("Поднимание туловища\n" +
                         "из положения лежа\n" +
                         "на спине (количество раз\n" +
                         "за 1 мин)\n ");
-                binding.normative4.setText("7. Метание мяча весом\n" +
+                binding.normative4.setText("Метание мяча весом\n" +
                         "150 г (м)");
-                binding.normative5.setText("7. Плавание на 50 м (мин, с) ");
-                binding.normative6.setText("7. Стрельба из положения сидя с\n" +
+                binding.normative5.setText("Плавание на 50 м (мин, с) ");
+                binding.normative6.setText("Стрельба из положения сидя с\n" +
                         "опорой локтей о стол и с упора\n" +
                         "для винтовки, дистанция 10 м\n" +
                         "из пневматической винтовки с\n" +
                         "открытым прицелом (очки) ");
-                binding.normative7.setText("7. Стрельба из пневматической\n" +
+                binding.normative7.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо \n" +
                         "«электронного оружия» (очки) ");
-                binding.normative8.setText("7. Самозащита без оружия\n" +
+                binding.normative8.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative9.setText("7. Туристский поход с проверкой\n" +
+                binding.normative9.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 5 км\n" +
                         "(количество навыков) ");
@@ -1178,37 +1203,38 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "M,14-15,C":
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Челночный бег\n" +
+                binding.normative1.setText("Челночный бег\n" +
                         "3x10 м (с) ");
-                binding.normative2.setText("6. Прыжок в длину\n" +
+                binding.normative2.setText("Прыжок в длину\n" +
                         "с места толчком двумя\n" +
                         "ногами (см)");
-                binding.normative3.setText("6. Поднимание туловища\n" +
+                binding.normative3.setText("Поднимание туловища\n" +
                         "из положения лежа\n" +
                         "на спине (количество раз\n" +
                         "за 1 мин)\n ");
-                binding.normative4.setText("7. Метание мяча весом\n" +
+                binding.normative4.setText("Метание мяча весом\n" +
                         "150 г (м)");
-                binding.normative5.setText("7. Плавание на 50 м (мин, с) ");
-                binding.normative6.setText("7. Стрельба из положения сидя с\n" +
+                binding.normative5.setText("Плавание на 50 м (мин, с) ");
+                binding.normative6.setText("Стрельба из положения сидя с\n" +
                         "опорой локтей о стол и с упора\n" +
                         "для винтовки, дистанция 10 м\n" +
                         "из пневматической винтовки с\n" +
                         "открытым прицелом (очки) ");
-                binding.normative7.setText("7. Стрельба из пневматической\n" +
+                binding.normative7.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо \n" +
                         "«электронного оружия» (очки) ");
-                binding.normative8.setText("7. Самозащита без оружия\n" +
+                binding.normative8.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative9.setText("7. Туристский поход с проверкой\n" +
+                binding.normative9.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 5 км\n" +
                         "(количество навыков) ");
@@ -1231,37 +1257,38 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "W,14-15,G":
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Челночный бег\n" +
+                binding.normative1.setText("Челночный бег\n" +
                         "3x10 м (с) ");
-                binding.normative2.setText("6. Прыжок в длину\n" +
+                binding.normative2.setText("Прыжок в длину\n" +
                         "с места толчком двумя\n" +
                         "ногами (см)");
-                binding.normative3.setText("6. Поднимание туловища\n" +
+                binding.normative3.setText("Поднимание туловища\n" +
                         "из положения лежа\n" +
                         "на спине (количество раз\n" +
                         "за 1 мин)\n ");
-                binding.normative4.setText("7. Метание мяча весом\n" +
+                binding.normative4.setText("Метание мяча весом\n" +
                         "150 г (м)");
-                binding.normative5.setText("7. Плавание на 50 м (мин, с) ");
-                binding.normative6.setText("7. Стрельба из положения сидя с\n" +
+                binding.normative5.setText("Плавание на 50 м (мин, с) ");
+                binding.normative6.setText("Стрельба из положения сидя с\n" +
                         "опорой локтей о стол и с упора\n" +
                         "для винтовки, дистанция 10 м\n" +
                         "из пневматической винтовки с\n" +
                         "открытым прицелом (очки) ");
-                binding.normative7.setText("7. Стрельба из пневматической\n" +
+                binding.normative7.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо \n" +
                         "«электронного оружия» (очки) ");
-                binding.normative8.setText("7. Самозащита без оружия\n" +
+                binding.normative8.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative9.setText("7. Туристский поход с проверкой\n" +
+                binding.normative9.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 5 км\n" +
                         "(количество навыков) ");
@@ -1284,37 +1311,38 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 2");
                 break;
 
             case "W,14-15,S":
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Челночный бег\n" +
+                binding.normative1.setText("Челночный бег\n" +
                         "3x10 м (с) ");
-                binding.normative2.setText("6. Прыжок в длину\n" +
+                binding.normative2.setText("Прыжок в длину\n" +
                         "с места толчком двумя\n" +
                         "ногами (см)");
-                binding.normative3.setText("6. Поднимание туловища\n" +
+                binding.normative3.setText("Поднимание туловища\n" +
                         "из положения лежа\n" +
                         "на спине (количество раз\n" +
                         "за 1 мин)\n ");
-                binding.normative4.setText("7. Метание мяча весом\n" +
+                binding.normative4.setText("Метание мяча весом\n" +
                         "150 г (м)");
-                binding.normative5.setText("7. Плавание на 50 м (мин, с) ");
-                binding.normative6.setText("7. Стрельба из положения сидя с\n" +
+                binding.normative5.setText("Плавание на 50 м (мин, с) ");
+                binding.normative6.setText("Стрельба из положения сидя с\n" +
                         "опорой локтей о стол и с упора\n" +
                         "для винтовки, дистанция 10 м\n" +
                         "из пневматической винтовки с\n" +
                         "открытым прицелом (очки) ");
-                binding.normative7.setText("7. Стрельба из пневматической\n" +
+                binding.normative7.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо \n" +
                         "«электронного оружия» (очки) ");
-                binding.normative8.setText("7. Самозащита без оружия\n" +
+                binding.normative8.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative9.setText("7. Туристский поход с проверкой\n" +
+                binding.normative9.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 5 км\n" +
                         "(количество навыков) ");
@@ -1337,37 +1365,38 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "W,14-15,C":
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Челночный бег\n" +
+                binding.normative1.setText("Челночный бег\n" +
                         "3x10 м (с) ");
-                binding.normative2.setText("6. Прыжок в длину\n" +
+                binding.normative2.setText("Прыжок в длину\n" +
                         "с места толчком двумя\n" +
                         "ногами (см)");
-                binding.normative3.setText("6. Поднимание туловища\n" +
+                binding.normative3.setText("Поднимание туловища\n" +
                         "из положения лежа\n" +
                         "на спине (количество раз\n" +
                         "за 1 мин)\n ");
-                binding.normative4.setText("7. Метание мяча весом\n" +
+                binding.normative4.setText("Метание мяча весом\n" +
                         "150 г (м)");
-                binding.normative5.setText("7. Плавание на 50 м (мин, с) ");
-                binding.normative6.setText("7. Стрельба из положения сидя с\n" +
+                binding.normative5.setText("Плавание на 50 м (мин, с) ");
+                binding.normative6.setText("Стрельба из положения сидя с\n" +
                         "опорой локтей о стол и с упора\n" +
                         "для винтовки, дистанция 10 м\n" +
                         "из пневматической винтовки с\n" +
                         "открытым прицелом (очки) ");
-                binding.normative7.setText("7. Стрельба из пневматической\n" +
+                binding.normative7.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative8.setText("7. Самозащита без оружия\n" +
+                binding.normative8.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative9.setText("7. Туристский поход с проверкой\n" +
+                binding.normative9.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 5 км\n" +
                         "(количество навыков) ");
@@ -1390,35 +1419,36 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "M,16-17,G":
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 700 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("7.  ");
-                binding.normative6.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText(" ");
+                binding.normative6.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative7.setText("7. Стрельба из пневматической\n" +
+                binding.normative7.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative8.setText("7. Самозащита без оружия\n" +
+                binding.normative8.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative9.setText("7. Туристский поход с проверкой\n" +
+                binding.normative9.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 10 км\n" +
                         "(количество навыков) ");
@@ -1441,35 +1471,36 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 2");
                 break;
 
             case "M,16-17,S":
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 700 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("7.  ");
-                binding.normative6.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText(" ");
+                binding.normative6.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative7.setText("7. Стрельба из пневматической\n" +
+                binding.normative7.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative8.setText("7. Самозащита без оружия\n" +
+                binding.normative8.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative9.setText("7. Туристский поход с проверкой\n" +
+                binding.normative9.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 10 км\n" +
                         "(количество навыков) ");
@@ -1492,38 +1523,40 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "M,16-17,С":
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ>");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 700 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("7.  ");
-                binding.normative6.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative7.setText("7. Стрельба из пневматической\n" +
+
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative8.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative9.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 10 км\n" +
                         "(количество навыков) ");
+                binding.normative9.setVisibility(View.GONE);
 
                 binding.normative10.setVisibility(View.GONE);
                 binding.normative11.setVisibility(View.GONE);
@@ -1543,36 +1576,37 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "W,16-17,G":
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 500 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
 
-                binding.normative5.setText("6. Стрельба из положения сидя\n" +
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
 
-                binding.normative6.setText("7. Стрельба из пневматической\n" +
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative7.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 10 км\n" +
                         "(количество навыков) ");
@@ -1596,34 +1630,35 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 2");
                 break;
 
             case "W,16-17,S":
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 500 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative6.setText("7. Стрельба из пневматической\n" +
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative7.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 10 км\n" +
                         "(количество навыков) ");
@@ -1647,34 +1682,35 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "W,16-17,C":
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 500 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative6.setText("7. Стрельба из пневматической\n" +
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative7.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 10 км\n" +
                         "(количество навыков) ");
@@ -1698,34 +1734,35 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "M,18-19,G":
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 700 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative6.setText("7. Стрельба из пневматической\n" +
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative7.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 10 км\n" +
                         "(количество навыков) ");
@@ -1749,34 +1786,35 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 2");
                 break;
 
             case "M,18-19,S":
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 700 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative6.setText("7. Стрельба из пневматической\n" +
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative7.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 10 км\n" +
                         "(количество навыков) ");
@@ -1800,34 +1838,35 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "M,18-19,C":
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 700 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative6.setText("7. Стрельба из пневматической\n" +
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative7.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 10 км\n" +
                         "(количество навыков) ");
@@ -1851,34 +1890,35 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "W,18-19,G":
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 500 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative6.setText("7. Стрельба из пневматической\n" +
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative7.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 10 км\n" +
                         "(количество навыков) ");
@@ -1902,34 +1942,35 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 2");
                 break;
 
             case "W,18-19,S":
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 500 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative6.setText("7. Стрельба из пневматической\n" +
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative7.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 10 км\n" +
                         "(количество навыков) ");
@@ -1953,34 +1994,35 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "W,18-19,C":
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 500 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative6.setText("7. Стрельба из пневматической\n" +
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative7.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 10 км\n" +
                         "(количество навыков) ");
@@ -2004,34 +2046,35 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "M,20-24,G":
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 700 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative6.setText("7. Стрельба из пневматической\n" +
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative7.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 15 км\n" +
                         "(количество навыков) ");
@@ -2055,34 +2098,35 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 2");
                 break;
 
             case "M,20-24,S":
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 700 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative6.setText("7. Стрельба из пневматической\n" +
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative7.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 15 км\n" +
                         "(количество навыков) ");
@@ -2106,34 +2150,35 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "M,20-24,C":
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 700 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative6.setText("7. Стрельба из пневматической\n" +
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative7.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 15 км\n" +
                         "(количество навыков) ");
@@ -2157,34 +2202,35 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "W,20-24,G":
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 500 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative6.setText("7. Стрельба из пневматической\n" +
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative7.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 15 км\n" +
                         "(количество навыков) ");
@@ -2208,34 +2254,35 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 2");
                 break;
 
             case "W,20-24,S":
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 500 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative6.setText("7. Стрельба из пневматической\n" +
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative7.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 15 км\n" +
                         "(количество навыков) ");
@@ -2259,34 +2306,35 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "W,20-24,C":
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 500 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative6.setText("7. Стрельба из пневматической\n" +
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative7.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 15 км\n" +
                         "(количество навыков) ");
@@ -2310,34 +2358,35 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "M,25-29,G":
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 700 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative6.setText("7. Стрельба из пневматической\n" +
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative7.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 15 км\n" +
                         "(количество навыков) ");
@@ -2361,34 +2410,35 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 2");
                 break;
 
             case "M,25-29,S":
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 700 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative6.setText("7. Стрельба из пневматической\n" +
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative7.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 15 км\n" +
                         "(количество навыков) ");
@@ -2412,34 +2462,35 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "M,25-29,C":
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 700 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative6.setText("7. Стрельба из пневматической\n" +
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative7.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 15 км\n" +
                         "(количество навыков) ");
@@ -2463,34 +2514,35 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "W,25-29,G":
                 binding.nameNormative.setText("НОРМАТИВЫ НА ЗОЛОТО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 500 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative6.setText("7. Стрельба из пневматической\n" +
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative7.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 15 км\n" +
                         "(количество навыков) ");
@@ -2514,34 +2566,35 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 2");
                 break;
 
             case "W,25-29,S":
                 binding.nameNormative.setText("НОРМАТИВЫ НА СЕРЕБРО");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 500 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative6.setText("7. Стрельба из пневматической\n" +
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative7.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 15 км\n" +
                         "(количество навыков) ");
@@ -2565,34 +2618,35 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
             case "W,25-29,C":
                 binding.nameNormative.setText("НОРМАТИВЫ НА БРОНЗУ");
 
                 //======================================================================== Название нормативов
-                binding.normative1.setText("5. Прыжок в длину с места\n" +
+                binding.normative1.setText("Прыжок в длину с места\n" +
                         "толчком двумя ногами (см) ");
-                binding.normative2.setText("5. Поднимание туловища из\n" +
+                binding.normative2.setText("Поднимание туловища из\n" +
                         "положения лежа на спине\n" +
                         "(количество раз за 1 мин)");
                 binding.normative3.setText("6.Метание спортивного снаряда\n" +
                         "весом 500 г (м) ");
-                binding.normative4.setText("6. Плавание на 50 м (мин, с)");
-                binding.normative5.setText("6. Стрельба из положения сидя\n" +
+                binding.normative4.setText("Плавание на 50 м (мин, с)");
+                binding.normative5.setText("Стрельба из положения сидя\n" +
                         "или стоя с опорой локтей о\n" +
                         "стол или стойку, дистанция\n" +
                         "10 м (очки): из\n" +
                         "пневматической винтовки с\n" +
                         "открытым прицелом");
-                binding.normative6.setText("7. Стрельба из пневматической\n" +
+                binding.normative6.setText("Стрельба из пневматической\n" +
                         "винтовки с диоптрическим\n" +
                         "прицелом либо\n" +
                         " «электронного оружия» (очки) ");
-                binding.normative7.setText("7. Самозащита без оружия\n" +
+                binding.normative7.setText("Самозащита без оружия\n" +
                         "(очки)");
-                binding.normative8.setText("7. Туристский поход с проверкой\n" +
+                binding.normative8.setText("Туристский поход с проверкой\n" +
                         "туристских навыков\n" +
                         "протяженностью не менее 15 км\n" +
                         "(количество навыков) ");
@@ -2616,7 +2670,8 @@ binding.back.setOnClickListener(view -> {
                 binding.static10.setVisibility(View.GONE);
                 binding.static11.setVisibility(View.GONE);
                 binding.static12.setVisibility(View.GONE);
-                binding.static13.setVisibility(View.GONE);
+                 binding.static13.setVisibility(View.GONE);
+ binding.kolvo.setText("Необходимое количество дополнительных испытаний для получения знака: 1");
                 break;
 
 
@@ -2629,7 +2684,7 @@ binding.back.setOnClickListener(view -> {
 
 
 
-            //TODO добавить тёмную тему, пофиксить баг с тёмной темой в главном меню
+
             //TODO и Добавь объяснение как с этой хернёй (твоим приложением) ратоботь. Чо то типо вкладки "помощь","подробнее" ну или на конец "как это работает"
         }
     }}

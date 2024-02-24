@@ -44,7 +44,7 @@ public class StatisticActivity extends AppCompatActivity {
                 binding.normative12.setVisibility(View.GONE);
                 binding.normative13.setVisibility(View.GONE);
 
-                binding.static1.setText("");
+                binding.static1.setText("3.1");
                 binding.static2.setText("8.3");
                 binding.static3.setText("800");
                 binding.static4.setText("1400");

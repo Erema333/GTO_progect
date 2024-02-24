@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -281,15 +281,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
-            android:layout_marginVertical="20dp"
+            android:layout_marginVertical="120dp"
             android:background="@drawable/button_ready"
             android:textSize="30dp"
             android:text="ГОТОВО"
 
             android:textColor="@drawable/button_ready" />
+        <Button
+            android:layout_marginVertical="30dp"
 
+            android:shape="oval"
+
+            android:id="@+id/help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/button_ready"
+            android:textSize="30dp"
+            android:text="ПОМОЩЬ"
+
+            android:textColor="@drawable/button_ready" />
        
     </FrameLayout>
 
 
-</ScrollView>
+</FrameLayout>

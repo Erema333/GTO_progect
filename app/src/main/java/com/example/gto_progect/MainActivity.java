@@ -25,6 +25,11 @@ boolean blan = false;
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         super.onCreate(savedInstanceState);
         setContentView(binding.getRoot());
+        binding.help.setOnClickListener(view -> {
+            Intent helping = new Intent();
+            helping.setClass(MainActivity.this, HelpActivity.class);
+            startActivity(helping);
+        });
         binding.gold.setOnClickListener(view1 -> {medal =1;});
         binding.serebro.setOnClickListener(view1 -> {medal =2;});
         binding.copper.setOnClickListener(view1 -> {medal =3;});
