@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="@color/dark_grey"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <FrameLayout
         android:background="@color/dark_grey"
         android:layout_width="match_parent"
@@ -274,35 +277,35 @@
 
         </RadioGroup>
 
-        <Button
-            android:shape="oval"
 
-            android:id="@+id/gotovo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center"
-            android:layout_marginVertical="120dp"
-            android:background="@drawable/button_ready"
-            android:textSize="30dp"
-            android:text="ГОТОВО"
-
-            android:textColor="@drawable/button_ready" />
-        <Button
-            android:layout_marginVertical="30dp"
-
-            android:shape="oval"
-
-            android:id="@+id/help"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center"
-            android:background="@drawable/button_ready"
-            android:textSize="30dp"
-            android:text="ПОМОЩЬ"
-
-            android:textColor="@drawable/button_ready" />
        
     </FrameLayout>
+    <Button
+        android:shape="oval"
 
+        android:id="@+id/gotovo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/button_ready"
+        android:textSize="30dp"
+        android:text="ГОТОВО"
 
-</FrameLayout>
+        android:textColor="@drawable/button_ready" />
+    <Button
+
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginVertical="40dp"
+        android:background="@drawable/button_ready"
+        android:shape="oval"
+        android:text="ПОМОЩЬ"
+        android:textColor="@drawable/button_ready"
+
+        android:textSize="30dp" />
+
+</LinearLayout>
+
+</ScrollView>
